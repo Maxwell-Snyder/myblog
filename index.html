@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" rel = "stylesheet">
-        <link rel = "icon" href = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngimagesfree.com%2Fspeech_bubble%2Fblank_speechbubble.png&f=1&nofb=1" type = "image/x-icon"> 
-        type = "image/x-icon">
-        <title>My Blog</title>
+        <link rel = "icon" href = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ficon-library.com%2Fimages%2Ftalk-bubble-icon-png%2Ftalk-bubble-icon-png-14.jpg&f=1&nofb=1" type = "image/x-icon"> 
+        <title>Maxwell's Blog</title>
     </head>
     <body>
-        <nav>
-            <label id = "title">My Blog!</label>
+        <nav id = "top">
+            <label id = "title">Maxwell's Blog</label>
             <button onclick = "hide()" id = "hi"><i class = "fas fa-times fa-lg"></i></button>
             <button id = "f" onclick = "share()"><i class = "fas fa-share fa-lg"></i></button>
         </nav>
@@ -21,12 +20,38 @@
             <br>
             <h1>Share via</h1>
             <br>
-            <a href = "mailto:?subject=Maxwell's blog&body=Check out Maxwell's blog! https://blablabla267.github.io/myblog/" target = "_blank">Email</a>
+            <a href = "mailto:?subject=Maxwell's blog&body=Check out Maxwell's blog! https://maxwell-snyder.github.io/maxwellsblog/" target = "_blank">Email</a>
             <br>
-            <a href="sms://+?body=Check out Maxwell's blog! https://blablabla267.github.io/myblog/" target = "_blank">Text</a>          
+            <a href="sms://+?body=Check out Maxwell's blog! https://maxwell-snyder.github.io/maxwellsblog/" target = "_blank">Text</a>          
         </div>
         <br>
+        <button id = "up" onclick="window.location.href='#';"><a href = "#"><i class = "fas fa-chevron-up fa-lg"></i></a></button>
         <div id = "home">
+        <h2>5/19/2021</h2>
+        <p>OK I have good news and bad news. The good news is there is a new slope website that isn't blocked. The bad news is that I do have to read my speech today. Although I thnk I'll do alright. I let my friend check my speech overview and I have been practicing! Tell you how it goes when school is over!</p>
+        <br>
+        <hr>
+        <br> 
+        <h2>5/19/2021</h2>
+        <p>My school blocked this one game that was a lot of fun. I'm sad about that. I also have too read a two minute speech infront of class today I think. I will write again once I really know. But see ya later!</p>
+        <br>
+        <hr>
+        <br> 
+        <h2>5/18/2021</h2>
+        <p>Two days until my birthday! Sadly I don't think we are going to be doing anythig since Coronavirus is still around. But I'm still excited for my birthday!</p>
+        <br>
+        <hr>
+        <br>            
+        <h2>5/18/2021</h2>
+        <p>This class I'm in right now is so boring. The teacher is making us do stuff we already did! What's the point of that? Atleast I have a couple friends to talk to in this class</p>
+        <br>
+        <hr>
+        <br>
+        <h2>5/8/2021</h2>
+        <p>I finally made this into an actual website! It's the first official website I ever made. I'm super happy right now!</p>
+        <br>
+        <hr>
+        <br>
         <h2>5/6/2021</h2>
         <p>I hope everybody has an amazing night tonight! :)</p>
         <br>
@@ -38,15 +63,13 @@
         <hr>
         <br>
         <h2>4/17/2021</h2>
-        <img src = "https://www.dropbox.com/s/bioeq2gf9sb9pmg/IMG_20210417_121703.jpg?raw=1" alt = "Pictur of couches" />
+        <img src = "https://www.dropbox.com/s/bioeq2gf9sb9pmg/IMG_20210417_121703.jpg?raw=1" alt = "Picture of couches" />
         <p>Going to stores to look for new couches to buy. I am very bored.</p>
-        <br>
         <br>
         <hr>
         <br>
         <h2>3/7/2021</h2>
         <p>Trying a new church today and the music is loud as heck. I dont know how some people come here every week!</p>
-        <br>
         <br>
         <hr>
         <br>
@@ -58,7 +81,6 @@
         <br>
         <h2>3/3/2021</h2>
         <p>Some people in my class are using Zoom when they are not supposed too. Doesn't suprise me though... it seems like alot of people are trying to rebel today. I dont know what they are trying to achieve by being on a zoom, but good luck to them.
-        <br>
         <br>
         <hr>
         <br>
@@ -109,14 +131,39 @@
             <br>
         </div>
         <style>
-        * {
+        html, body {
     margin:0;
     padding:0;
+}
+
+p {
+    font-size:20px;
 }
 
 body {
     text-align:center;
     font-family:"Roboto", sans-serif;
+    transition:all 0.25s;
+            }
+            
+#up {
+    background-color:#82EEFD;
+    width:50px;
+    height:50px;
+    border:transparent;
+    border-radius:50%;
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    trasition:all 0.25s;
+}
+            
+#up:hover {
+    background-color:skyblue;
+}
+
+#up:active {
+    transform:scale(0.95)
 }
 
 img {
@@ -135,7 +182,7 @@ nav {
     height:50px;
     width:100%;
     position:fixed;
-    margin-top:-10px;
+    display:block;
 }
 
 #title {
@@ -230,22 +277,23 @@ button {
 button, input {
     outline:none;
     font-family:"Roboto", sans-serif;
+    transition:all 0.25s;
 }
     </style>
     <script>
     function share () {
-    document.getElementById ("share").style.display = "block";
-    document.getElementById ("home").style.display = "none";
-    document.getElementById ("f").style.display = "none";
-    document.getElementById ("hi").style.display = "block";
-}
+        document.getElementById ("share").style.display = "block";
+        document.getElementById ("home").style.display = "none";
+        document.getElementById ("f").style.display = "none";
+        document.getElementById ("hi").style.display = "block";
+    }
 
-function hide () {
-    document.getElementById ("share").style.display = "none";
-    document.getElementById ("home").style.display = "block";
-    document.getElementById ("f").style.display = "block";
-    document.getElementById ("hi").style.display = "none";
-}
-    </script>
-    </body> 
+    function hide () {
+        document.getElementById ("share").style.display = "none";
+        document.getElementById ("home").style.display = "block";
+        document.getElementById ("f").style.display = "block";
+        document.getElementById ("hi").style.display = "none"; 
+    }
+    </script> 
+    </body>
 </html>
