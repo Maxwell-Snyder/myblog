@@ -27,6 +27,63 @@
         <br>
         <button id = "up" onclick="window.location.href='#';"><a href = "#"><i class = "fas fa-chevron-up fa-lg"></i></a></button>
         <div id = "home">
+        <div id = "block">
+            <h2>Password Required</h2>
+            <p style = "width:300px;margn-left:auto;margin-right:auto;">This content is only available for some people. To continue you must enter the password.</p>
+            <br>
+            <input placeholder = "Password" type = "password" id = "try()" />
+            <button id = "work" onclick = "try()"><i class = "fas fa-arrow-right fa-lg"></i></button>                                                        
+            <style>
+                #try {
+                    width:300px;
+                    height:25px;            
+                    background-color:transparent;                                                
+                    border:transparent;                                           
+                    border-bottom:black soid 1px;                             
+                }
+                                                                    
+                #try:focus {                                                    
+                    border-bottom:skyblue solid 1px;
+                }                                                    
+                                                                    
+                #work {
+                    width:30px;
+                    height:30px;                                                 
+                    border-radius:50%;                                                 
+                    border:transparent;                                                 
+                    background-color:#82EEFD;                                                 
+                }                             
+                                                                     
+                #work:hover {
+                    background-color:skyblue;                                                 
+                }                                                     
+                                                                     
+                #work:active {                                                     
+                    transform:scale (0.95);                                                
+                }                                                     
+                   
+                                                                     
+                #p1 {
+                    display:none;
+                }                                                     
+                                                                     
+           </style>                                                     
+           <script>
+                function try () {
+                      if (document.getELementById ("try").value = 111111;) {
+                            document.getELementById ("p1").style.display = "block";                            
+                      } else {
+                            document.getELementById ("try").style.borderBottom = "red";                                                      
+                      }                                                            
+                }                                                
+            </script>                                                     
+        <div id = "p1">
+        <h2>5/20/2021</h2>
+        <p>Hey it worked!</p>
+        </div>
+        <br>
+        <hr>
+        <br> 
         <h2>5/20/2021</h2>
         <p>My teacher made me retake a test. I hope that I did well. And also next post is going to be a test with private posts like I was saying before. If I do decide to do it the password will be "111111". Ok bye!</p>
         <br>
