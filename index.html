@@ -369,10 +369,12 @@ nav {
 }
 
 #share {
-    display:none;
+    /*display:none;*/
+    transform:scale(0.0);
     width:200px;
     right:0px;
     top:50px;
+    transition:all 0.25s;
     position:fixed;
     background-color:whitesmoke;
 }
@@ -442,13 +444,15 @@ button, input {
     </style>
     <script>
     function share () {
-        document.getElementById ("share").style.display = "block";
+        // document.getElementById ("share").style.display = "block";
+        document.getElementById ("share").style.transform = "1.0";
         document.getElementById ("f").style.display = "none";
         document.getElementById ("hi").style.display = "block";
     }
 
     function hide () {
-        document.getElementById ("share").style.display = "none";
+        // document.getElementById ("share").style.display = "none";
+        document.getElementById ("share").style.transform = "0.0";
         document.getElementById ("home").style.display = "block";
         document.getElementById ("f").style.display = "block";
         document.getElementById ("hi").style.display = "none"; 
