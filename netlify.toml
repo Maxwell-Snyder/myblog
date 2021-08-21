@@ -2,6 +2,7 @@
     for = "/*"
     [headers.values]
         X-Frame-Options = "deny"
+        Content-Security-Policy = "default-src 'self';"
         X-XSS-Protection = "1; mode=block"
         X-Content-Type-Options = "nosniff"
         Strict-Transport-Security = '''
