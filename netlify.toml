@@ -8,7 +8,3 @@
             max-age=31536000;
             includeSubDomains
         '''
-        Content-Security-Policy = '''
-            style-src 'self' 'unsafe-inline';
-            img-src 'self';
-        '''
