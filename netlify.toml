@@ -10,5 +10,6 @@
         '''
         Content-Security-Policy = '''
             default-src 'self';
+            style-src 'self' 'safe-inline';
             img-src 'self'
         '''
