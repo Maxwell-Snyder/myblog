@@ -10,7 +10,7 @@
             includeSubDomains
         '''
         Content-Security-Policy = '''
-            script-stc 'self';
+            script-src 'self';
         '''
         Permissions-Policy = '''
             accelerometer=(none),
