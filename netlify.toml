@@ -10,7 +10,6 @@
             includeSubDomains
         '''
         Content-Security-Policy = '''
-            default-src 'self';
             script-stc 'self';
         '''
         Permissions-Policy = '''
