@@ -11,6 +11,9 @@
         '''
         Content-Security-Policy = '''
             script-src 'self';
+            object-src 'self';
+            base-uri 'self';
+            frame-src 'self';
         '''
         Permissions-Policy = '''
             accelerometer=(none),
