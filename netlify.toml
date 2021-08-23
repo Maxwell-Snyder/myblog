@@ -10,10 +10,10 @@
             includeSubDomains
         '''
         Content-Security-Policy = '''
-            script-src 'www.maxwellblog.com';
             object-src 'self';
             base-uri 'self';
             frame-src 'self';
+            script-src 'self';
         '''
         Permissions-Policy = '''
             accelerometer=(none),
