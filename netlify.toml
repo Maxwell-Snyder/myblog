@@ -11,7 +11,7 @@
         '''
         Content-Security-Policy = '''
             script-src 'self';
-            style-src 'self';
+            style-src 'self' https://fonts.googleapis.com;
         '''
         Permissions-Policy = '''
             accelerometer=(none),
