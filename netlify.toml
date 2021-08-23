@@ -1,42 +1,70 @@
-const securityHeaders = {
-        "Content-Security-Policy": script-src "self",
-        "Strict-Transport-Security": "max-age=1000",
-        "X-Xss-Protection": "1; mode=block",
-        "X-Frame-Options": "DENY",
-        "X-Content-Type-Options": "nosniff",
-        "Referrer-Policy": "strict-origin-when-cross-origin"
-    },
-    sanitiseHeaders = {
-        Server: ""
-    },
-    removeHeaders = [
-        "Public-Key-Pins",
-        "X-Powered-By",
-        "X-AspNet-Version"
-    ];
 
-async function addHeaders(req) {
-    const response = await fetch(req),
-        newHeaders = new Headers(response.headers),
-        setHeaders = Object.assign({}, securityHeaders, sanitiseHeaders);
-
-    if (newHeaders.has("Content-Type") && !newHeaders.get("Content-Type").includes("text/html")) {
-        return new Response(response.body, {
-            status: response.status,
-            statusText: response.statusText,
-            headers: newHeaders
-        });
-    }
-
-    Object.keys(setHeaders).forEach(name => newHeaders.set(name, setHeaders[name]));
-
-    removeHeaders.forEach(name => newHeaders.delete(name));
-
-    return new Response(response.body, {
-        status: response.status,
-        statusText: response.statusText,
-        headers: newHeaders
-    });
-}
-
-addEventListener("fetch", event => event.respondWith(addHeaders(event.request)));
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+[[headers]]
+    for = "/*"
+    [headers.values]
+        X-Frame-Options = "deny"
+        X-XSS-Protection = "1; mode=block"
+        X-Content-Type-Options = "nosniff"
+        Referrer-Policy = "no-referrer"
+        Strict-Transport-Security = '''
+            max-age=31536000;
+            includeSubDomains
+        '''
+        Content-Security-Policy = '''
+            default-src 'self';
+            style-src 'self' 'unsafe-inline';
+            img-src 'self'
+        '''
+        Permissions-Policy = '''
+            accelerometer=(none),
+            ambient-light-sensor=(none),
+            autoplay=(none),
+            camera=(none),
+            encrypted-media=(none),
+            fullscreen=(none),
+            geolocation=(none),
+            gyroscope=(none),
+            magnetometer=(none),
+            microphone=(none),
+            midi=(none),
+            payment=(none),
+            picture-in-picture=(none),
+            speaker=(none),
+            usb=(none),
+            vibrate=(none),
+            vr=(none)
+        '''
