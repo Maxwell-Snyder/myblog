@@ -15,6 +15,7 @@
             object-src 'self';
             base-uri 'self';
             frame-src 'self';
+            manifest-src 'none';
         '''
         Permissions-Policy = '''
             accelerometer=(none),
