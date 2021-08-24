@@ -10,7 +10,7 @@
             includeSubDomains
         '''
         Content-Security-Policy = '''
-            script-src 'self' 'unsafe-inline' 'https://www.maxwellblog.com'
+            script-src 'self' 'unsafe-hashes' 'https://www.maxwellblog.com'
             object-src 'self';
             base-uri 'self';
             frame-src 'self';
