@@ -15,7 +15,7 @@
         '''
         Content-Security-Policy = '''
             default-src 'self' https:;
-            script-src 'self' 'nonce-8IBTHwOdqNKAWeKl7plt8g==';
+            script-src 'self' 'sha256-xzi4zkCjuC8lZcD2UmnqDG0vurmq12W/XKM5Vd0+MlQ=';
             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             object-src 'self';
             base-uri 'self';
