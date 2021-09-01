@@ -3,7 +3,7 @@
     [headers.values]
         X-Frame-Options = "deny"
         X-XSS-Protection = "1; mode=block"
-        Cache-Control = "private"
+        Cache-Control = "no-cache"
         X-Content-Type-Options = "nosniff"
         Referrer-Policy = "no-referrer"
         Expect-CT = "enforce, max-age=31536000 report-uri https://maxsspot.report-uri.com/r/d/ct/enforce"
