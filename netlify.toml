@@ -14,6 +14,7 @@
         Vary = "Upgrade-Insecure-Requests"
         Strict-Transport-Security = '''
             max-age=31536000;
+            preload;
             includeSubDomains
         '''
         Content-Security-Policy = '''
