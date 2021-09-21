@@ -12,7 +12,6 @@
         Cross-Origin-Embedder-Policy = "unsafe-none"
         Host = "www.maxwellblog.com"
         Vary = "Upgrade-Insecure-Requests"
-        Connection = "keep-alive"
         Strict-Transport-Security = '''
             max-age=31536000;
             includeSubDomains
