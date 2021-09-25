@@ -21,10 +21,11 @@
             default-src 'self' https:;
             script-src 'self' 'unsafe-inline';
             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
-            object-src 'self';
-            base-uri 'self';
-            frame-src 'self';
+            object-src 'none';
+            base-uri 'none';
+            frame-src 'none';
             manifest-src 'none';
+            upgrade-insecure-requests;
         '''
         Permissions-Policy = '''
             accelerometer=(none),
