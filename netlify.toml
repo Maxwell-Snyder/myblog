@@ -33,7 +33,6 @@
             ambient-light-sensor=(none),
             autoplay=(none),
             camera=(none),
-            encrypted-media=(none),
             fullscreen=(none),
             geolocation=(none),
             gyroscope=(none),
