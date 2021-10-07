@@ -12,6 +12,7 @@
         Cross-Origin-Resource-Policy = "same-origin"
         Cross-Origin-Embedder-Policy = "unsafe-none"
         Host = "www.maxwellblog.com"
+        Location = "www.maxwellblog.com"
         Vary = "Upgrade-Insecure-Requests"
         Strict-Transport-Security = '''
             max-age=31536000;
