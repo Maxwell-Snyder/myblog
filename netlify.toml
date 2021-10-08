@@ -16,9 +16,9 @@
         Location = "www.maxwellblog.com"
         Vary = "Upgrade-Insecure-Requests"
         Strict-Transport-Security = '''
+            includeSubDomains
             max-age=31536000;
             preload'''
-            includeSubDomains
         '''
         Content-Security-Policy = '''
             default-src 'self' https:;
