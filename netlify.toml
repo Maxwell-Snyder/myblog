@@ -2,7 +2,7 @@
     for = "/*"
     [headers.values]
         X-Frame-Options = "deny"
-        X-XSS-Protection = "1; mode=block"
+        X-XSS-Protection = "1"
         Cache-Control = "no-cache"
         Proxy-Authenticate = "Basic"
         Pragma = "must-revalidate"
