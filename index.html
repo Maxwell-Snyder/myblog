@@ -34,16 +34,12 @@
             <a style = "margin-top:3px;" href = "https://reddit.com/submit?url=https://www.maxwellblog.com&title=Check out Maxwell's blog!" target = "_blank"><i class = "fab fa-reddit fa-lg"></i></a>
             <a style = "margin-top:3px;" href = "https://www.facebook.com/sharer/sharer.php?u=https://www.maxwellblog.com&amp;src=sdkpreparse" target = "_blank"><i class = "fab fa-facebook fa-lg"></i></a>
             <br>
-            <!--
             <br>
-            <input value = "https://maxsspot.github.io/myblog" readonly style = "border:transparent;text-align:center;width:200px;background-color:transparent;" />
-            <br>
-            -->
-            <!--
-            <a onclick = "var copyText = document.getElementById('texddt');copyText.select();copyText.setSelectionRange(0, 99999);document.execCommand('copy');" style = "cursor:pointer;">Copy share text</a>
+            <input id = "myInput" value = "https://www.maxwellblog.com" readonly style = "border:transparent;text-align:center;display:none;background-color:transparent;" />
+            <a style = "cursor:pointer;" onclick = "copy()">Copy link</a>
             -->
             <br>
-            <input value = "Check out Maxwell's Blog! https://maxwell-snyder.github.io/myblog/" id = "texddt" style = "display:none;" />
+            <br>
         </div>
         <br>
         <br>
@@ -524,6 +520,18 @@ button, input {
     function hide2 () {
         document.getElementById ("share").style.display = "none";
     }
+        
+        function copy() {
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+   /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+}
     </script>
     </body>
 </html>
