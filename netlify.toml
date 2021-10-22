@@ -4,7 +4,7 @@
         X-Frame-Options = "deny"
         X-XSS-Protection = "1; mode=block"
         Cache-Control = "no-cache"
-         Proxy-Authenticate = "Basic"
+        Proxy-Authenticate = "Basic"
         Pragma = "must-revalidate"
         X-Permitted-Cross-Domain-Policies = "none"
         X-Content-Type-Options = "nosniff"
@@ -24,7 +24,10 @@
         Host = "www.maxwellblog.com"
         Location = "www.maxwellblog.com"
         Vary = "Upgrade-Insecure-Requests"
-
+        Strict-Transport-Security = '''
+            includeSubDomains
+            max-age=31536000;
+        '''
         Content-Security-Policy = '''
             default-src 'self' https:;
             script-src 'self' 'unsafe-inline';
