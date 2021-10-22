@@ -12,7 +12,6 @@
         X-DNS-Prefetch-Control = "off"
         Keep-Alive = "100"
         Connection = "keep-alive"
-        X-Download-Options = "noopen"
         X-Content-Type-Options = "nosniff"
         Referrer-Policy = "no-referrer"
         X-Download-Options = "noopen"
