@@ -42,7 +42,7 @@
         <br>
         <br>
         <br>
-        <button id = "up" onclick="scroll(0,0)"><a href = "#" onclick = "reset()"><i class = "fas fa-arrow-up fa-lg"></i></a></button>
+        <button id = "up" onclick="window.location.href = '#';"><a href = "#" onclick = "reset()"><i class = "fas fa-arrow-up fa-lg"></i></a></button>
         <div id = "home">
         <h2>10/28/2021</h2>
         <p>If you ever see I deleted a post... there was a reason for me doing that.</p>
@@ -506,40 +506,5 @@ button, input {
     transition:all 0.25s;
 }
     </style>
-    <script nonce="8IBTHwOdqNKAWeKl7plt8g==">
-            function share () {
-        // document.getElementById ("share").style.display = "block";
-        document.getElementById ("share").style.transform = "scale(1.0)";
-        document.getElementById ("f").style.display = "none";
-        document.getElementById ("hi").style.display = "block";
-    }
-
-    function hide () {
-        // document.getElementById ("share").style.display = "none";
-        document.getElementById ("share").style.transform = "scale(0.0)";
-        document.getElementById ("home").style.display = "block";
-        document.getElementById ("f").style.display = "block";
-        document.getElementById ("hi").style.display = "none"; 
-    }
-
-    function hide2 () {
-        document.getElementById ("share").style.display = "none";
-    }
-        
-        function copy() {
-  /* Get the text field */
-  var copyText = document.getElementById("myInput");
-
-  /* Select the text field */
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /* For mobile devices */
-
-   /* Copy the text inside the text field */
-  navigator.clipboard.writeText(copyText.value);
-            alert ("Link copied!");
-}
-        
-        
-    </script>
     </body>
 </html>
