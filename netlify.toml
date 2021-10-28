@@ -28,7 +28,7 @@
         '''
         Content-Security-Policy = '''
             default-src 'self' https:;
-            script-src 'self' 'script.js';
+            script-src 'self' 'nonce-Mdakms22KS' 'strict-dynamic';
             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             object-src 'none';
             base-uri 'none';
