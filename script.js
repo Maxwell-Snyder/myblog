@@ -1,11 +1,15 @@
-var check = document.getElementById ("checked");   
+
 function show () {
-if (check.checked = true) {
+
+}
+setInterval(function(){ 
+    var check = document.getElementById ("checked");   
+    if (check.checked = true) {
     document.getElementById ("sensitive").style.blur = "(0px)";        
 } else {
     document.getElementById ("sensitive").style.blur = "(5px)";         
 }
-}
+}, 1000);
 setInterval(show, 1000);
 
 function share () {
