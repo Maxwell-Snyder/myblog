@@ -6,10 +6,9 @@
       @media print {
          #body {
                  display:none;
-              }
-              
-              #noprint {
+                               #noprint {
                  display:block;
+              }
               }
       }
 
