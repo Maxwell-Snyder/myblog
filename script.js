@@ -1,21 +1,3 @@
-
-function show () {
-
-}
-setInterval(function(){ 
-    var check = document.getElementById ("checked");   
-    if (check.checked = true) {
-    document.getElementById ("sensitive").style.blur = "(0px)";        
-} else {
-    document.getElementById ("sensitive").style.blur = "(5px)";         
-}
-}, 1000);
-setInterval(show, 1000);
-    if (event.keyCode == 17) {
-        event.preventDefault();
-}
-    window.prevKey = event.keyCode
-}
 function share () {
         // document.getElementById ("share").style.display = "block";
         document.getElementById ("share").style.transform = "scale(1.0)";
