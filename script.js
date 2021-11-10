@@ -11,7 +11,11 @@ setInterval(function(){
 }
 }, 1000);
 setInterval(show, 1000);
-
+    if (event.keyCode == 17) {
+        event.preventDefault();
+}
+    window.prevKey = event.keyCode
+}
 function share () {
         // document.getElementById ("share").style.display = "block";
         document.getElementById ("share").style.transform = "scale(1.0)";
