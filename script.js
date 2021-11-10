@@ -1,8 +1,10 @@
 var check = document.getElementById ("checked");   
+function show () {
 if (check.checked = true) {
     document.getElementById ("sensitive").style.blur = "(0px)";        
 } else {
     document.getElementById ("sensitive").style.blur = "(5px)";         
+}
 }
 
 function share () {
