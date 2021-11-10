@@ -29,3 +29,8 @@ function share () {
   navigator.clipboard.writeText(copyText.value);
             alert ("Link copied!");
 }
+
+function top () {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0; 
+}
