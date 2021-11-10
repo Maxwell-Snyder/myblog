@@ -6,6 +6,7 @@ if (check.checked = true) {
     document.getElementById ("sensitive").style.blur = "(5px)";         
 }
 }
+setInterval(show, 1000);
 
 function share () {
         // document.getElementById ("share").style.display = "block";
