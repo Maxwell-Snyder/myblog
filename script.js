@@ -1,4 +1,11 @@
-            function share () {
+var check = document.getElementById ("checked");   
+if (check.checked = true) {
+    document.getElementById ("sensitive").style.blur = "(0px)";        
+} else {
+    document.getElementById ("sensitive").style.blur = "(5px)";         
+}
+
+function share () {
         // document.getElementById ("share").style.display = "block";
         document.getElementById ("share").style.transform = "scale(1.0)";
         document.getElementById ("f").style.display = "none";
