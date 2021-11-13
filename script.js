@@ -21,14 +21,12 @@ function top () {
   document.documentElement.scrollTop = 0; 
 }
 
-mybutton = document.getElementById("top");
-
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+    document.getElementById ("top").style.display = "block";
   } else {
-    mybutton.style.display = "none";
+    document.getElementById ("top").style.display = "none";
   }
 }
