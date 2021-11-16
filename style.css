@@ -29,6 +29,18 @@ body {
     font-family:"Raleway", sans-serif;
     transition:all 0.25s;
             }
+
+input {
+        width:200px;
+        height:30px;
+        border:transparent;
+        border-bottom:black solid 1px;
+}
+
+#send {
+        background-color:transparent;
+        border:transparent;
+}
             
 #top {
     background-color:#82EEFD;
