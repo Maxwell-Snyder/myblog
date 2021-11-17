@@ -21,12 +21,8 @@ function top () {
   document.documentElement.scrollTop = 0; 
 }
 
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById ("top").style.display = "block";
-  } else {
-    document.getElementById ("top").style.display = "none";
-  }
+function dark () {
+          document.getElementsByTagName(p).style.color = "white"
+          document.getElementsByTagName(h2).style.color = "white"
+          document.body.style.backround = "grey";
 }
