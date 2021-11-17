@@ -43,6 +43,7 @@ input, textarea {
 #send {
         background-color:transparent;
         border:transparent;
+        margin-top:-10px;
 }
             
 #top {
