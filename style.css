@@ -32,7 +32,8 @@ body {
 
 input, textarea {
         width:200px;
-        height:50px;
+        height:40px;
+        font-family:"Raleway", sans-serif;
         outline:none;
         resize:none;
         border:transparent;
