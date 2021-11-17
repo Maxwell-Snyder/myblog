@@ -218,6 +218,11 @@ p {
     margin-right:auto;
 }
 
+textarea {
+        border:transparent;
+        border-bottom:black solid 1px;
+}
+
 button {
     cursor:pointer;
 }
