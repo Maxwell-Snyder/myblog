@@ -45,6 +45,10 @@ input, textarea {
         border:transparent;
         height:30px;
 }
+
+#send:hover {
+text-decoration:underline;
+}
             
 #top {
     background-color:#82EEFD;
