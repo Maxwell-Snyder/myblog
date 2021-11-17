@@ -21,7 +21,7 @@ function top () {
   document.documentElement.scrollTop = 0; 
 }
 
-function dark () {
+function darkmode () {
           document.getElementsByTagName(p).style.color = "white";
           document.getElementsByTagName(h2).style.color = "white";
           document.body.style.background = "grey";
