@@ -32,7 +32,8 @@ body {
 
 input, textarea {
         width:200px;
-        height:200px;
+        height:50px;
+        outline:none;
         resize:none;
         border:transparent;
         border-bottom:black solid 1px;
