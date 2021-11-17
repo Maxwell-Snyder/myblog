@@ -44,6 +44,7 @@ input, textarea {
         background-color:transparent;
         border:transparent;
         margin-top:-10px;
+        position:fixed;
 }
             
 #top {
