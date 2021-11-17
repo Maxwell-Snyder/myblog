@@ -22,7 +22,7 @@ function top () {
 }
 
 function dark () {
-          document.getElementsByTagName(p).style.color = "white"
-          document.getElementsByTagName(h2).style.color = "white"
-          document.body.style.backround = "grey";
+          document.getElementsByTagName(p).style.color = "white";
+          document.getElementsByTagName(h2).style.color = "white";
+          document.body.style.background = "grey";
 }
