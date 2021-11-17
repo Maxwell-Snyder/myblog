@@ -53,7 +53,7 @@ text-decoration:underline;
 #top {
     background-color:#82EEFD;
     width:50px;
-    height:60px;
+    height:50px;
     border:transparent;
     border-radius:10px;
     position:fixed;
@@ -104,7 +104,7 @@ img {
 
 nav {
     background-color:whitesmoke;
-    height:50px;
+    height:60px;
     width:100%;
     position:fixed;
     display:block;
