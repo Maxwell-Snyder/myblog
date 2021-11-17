@@ -53,7 +53,7 @@ text-decoration:underline;
 #top {
     background-color:#82EEFD;
     width:50px;
-    height:50px;
+    height:60px;
     border:transparent;
     border-radius:10px;
     position:fixed;
@@ -113,7 +113,7 @@ nav {
 #title {
     font-size:24px;
     margin-left:15px;
-    margin-top:10px;
+    margin-top:13.5px;
     float:left;
 }
 
@@ -191,7 +191,7 @@ video {
     transition: all 0.25s;
     width:40px;
     height:40px;
-    margin-top:5.5px;
+    margin-top:7.5px;
     border-radius:10px;
     margin-right:7.5px;
 }
