@@ -55,8 +55,7 @@
         <br>
         <br>
         <button id = "top" onclick = "window.location.href=''" onclick = "top()"><a><i class = "fas fa-arrow-up fa-lg"></i></a></button>
-        <div id = "home">
-		<button onclick = "darkmode()" style = "background-color:transparent;border:transparent;">Dark mode</button>
+		<a onclick = "darkmode()" style = "background-color:transparent;border:transparent;">Dark mode</a>
 		<br>
 		<button onclick = "light()" style = "background-color:transparent;border:transparent;">Light mode</button>
 	<h2>11/18/2021</h2>
@@ -363,6 +362,7 @@
       $(document).ready(function(){
     $("body").css("background-color", "grey");
 });
+			document.body.style.background = "grey";
 }
 	</script>
     </body>
