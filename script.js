@@ -24,5 +24,19 @@ function top () {
 function darkmode () {
          document.getElementsByTagName(p).style.color = "white";
          document.getElementsByTagName(h2).style.color = "white";
-         document.body.style.background = "grey";
+         $(document).ready(function(){
+    $("body").on({
+        mouseenter: function(){
+            $(this).css("background-color", "gray");
+        },  
+       
+        mouseleave: function(){
+            $(this).css("background-color", "gray");
+        },
+       
+        dblclick: function(){
+            $(this).css("background-color", "gray");
+        }
+    });
+});
 }
