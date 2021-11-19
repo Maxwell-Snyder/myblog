@@ -20,9 +20,3 @@ function top () {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0; 
 }
-
-function darkmode () {
-      $(document).ready(function(){
-    $("body").css("background-color", "grey");
-});
-}
