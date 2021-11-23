@@ -6,7 +6,6 @@ function share () {
 
     function hide () {
         document.getElementById ("share").style.transform = "scale(0.0)";
-        document.getElementById ("home").style.display = "block";
         document.getElementById ("f").style.display = "block";
         document.getElementById ("hi").style.display = "none"; 
     }
