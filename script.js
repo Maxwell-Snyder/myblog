@@ -19,3 +19,10 @@ function top () {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0; 
 }
+
+document.cookie = "read_image_policy=false";
+
+if (document.cookie = "false") {
+        alert ("Images from this website may be screenshotted and used elsewhere as long as you add a link to this site.");
+        document.cookie = "read_image_policy=true";
+}
