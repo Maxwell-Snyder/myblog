@@ -19,12 +19,10 @@ function top () {
   document.documentElement.scrollTop = 0; 
 }
 
-$(document).ready(function(){
-    $("#showsusword").click(function(){
-        if($(this).is(":checked")){
-        	document.getElementById ("susword").style.filter "blur(0px)";
-        }else if($(this).is(":not(:checked)")){
-        	document.getElementById ("susword").style.filter "blur(5px)";
-        }
-    });
-});
+function showsus () {
+   document.getElementById ("sus").style.filter = "blur(0px)";
+}
+
+function hidesus () {
+   document.getElementById ("sus").style.filter = "blur(5px)";
+}
