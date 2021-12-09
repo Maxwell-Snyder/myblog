@@ -1,0 +1,31 @@
+	body {
+    		font-family:"Raleway", sans-serif;
+    		text-align:center;
+		background-color:black;
+	}
+					
+	#circle {
+		width:300px;
+		height:290px;
+		background-color:whitesmoke;
+		border-radius:10px;
+		box-shadow:0px 0px 15px whitesmoke;
+	}
+		
+	a {
+		color:green;
+		text-decoration:none;
+		transition:all 0.25s;
+	}
+		
+	a:active {
+		color:lightgreen;
+	}
+		
+	#body {
+	  	margin: 0;
+  		position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+	}
