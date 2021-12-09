@@ -26,13 +26,14 @@
             max-age=31536000;
         '''
         Content-Security-Policy = '''
-            default-src 'self' https:;
-            script-src 'self' 'unsafe-inline' https://www.googletagmanager.com/gtag/js?id=G-538KEJSXY6 https://www.clarity.ms/tag/;
+            default-src 'self';
+            script-src 'nonce-JJsam12MMsazks2312' 'strict-dynamic';
             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             object-src 'none';
             base-uri 'none';
             frame-src 'none';
             manifest-src 'none';
+            connect-src https://www.googletagmanager.com/gtag/js?id=G-538KEJSXY6;
             upgrade-insecure-requests;
         '''
         Permissions-Policy = '''
