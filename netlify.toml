@@ -24,6 +24,7 @@
         Strict-Transport-Security = '''
             includeSubDomains
             max-age=31536000;
+            preload
         '''
         Content-Security-Policy = '''
             default-src 'self' https:;
