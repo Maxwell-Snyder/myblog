@@ -7,7 +7,6 @@
         Proxy-Authenticate = "Basic"
         Pragma = "must-revalidate"
         X-Permitted-Cross-Domain-Policies = "none"
-        Upgrade-Insecure-Requests = "1"
         Content-Language = "en-US"
         X-DNS-Prefetch-Control = "off"
         Keep-Alive = "100"
@@ -19,13 +18,13 @@
         Cross-Origin-Opener-Policy = "same-origin"
         Cross-Origin-Resource-Policy = "same-origin"
         Cross-Origin-Embedder-Policy = "unsafe-none"
-        Host = "www.maxwellblog.com"
-        Vary = "Upgrade-Insecure-Requests"
+        
         Strict-Transport-Security = '''
             max-age=31536000;
             includeSubDomains;
             preload
         '''
+        
         Content-Security-Policy = '''
             default-src 'self' https:;
             script-src 'nonce-JJsam12MMsazks2312' 'strict-dynamic';
@@ -37,6 +36,7 @@
             connect-src https://www.googletagmanager.com/gtag/js?id=G-538KEJSXY6;
             upgrade-insecure-requests;
         '''
+        
         Permissions-Policy = '''
             accelerometer=(none),
             ambient-light-sensor=(none),
