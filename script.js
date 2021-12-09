@@ -1,28 +1,22 @@
-function share () {
+const element = document.getElementById('f')
+
+element.addEventListener("click", () => {
     document.getElementById ("share").style.transform = "scale(1.0)";
     document.getElementById ("f").style.display = "none";
     document.getElementById ("hi").style.display = "block";
-}
+});
 
-function hide () {
+const element2 = document.getElementById('hi')
+
+element2.addEventListener("click", () => {
     document.getElementById ("share").style.transform = "scale(0.0)";
     document.getElementById ("f").style.display = "block";
     document.getElementById ("hi").style.display = "none"; 
-}
+});
 
-function hide2 () {
-    document.getElementById ("share").style.display = "none";
-}
-        
-function top () {
+const element3 = document.getElementById('top')
+
+element3.addEventListener("click", () => {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0; 
-}
-
-function showsus () {
-   document.getElementById ("sus").style.filter = "blur(0px)";
-}
-
-function hidesus () {
-   document.getElementById ("sus").style.filter = "blur(5px)";
-}
+});
