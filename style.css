@@ -171,6 +171,7 @@ a:hover {
     width:210px;
     right:0px;
     top:50px;
+    margin-top:5px;
     transition:all 0.5s;
     position:fixed;
     background-color:whitesmoke;
