@@ -21,4 +21,8 @@ element3.addEventListener("click", () => {
   document.documentElement.scrollTop = 0; 
 });
 
-document.getElementsByTagName(body).oncontextmenu = "return false";
+const noContext = document.getElementById('content');
+
+noContext.addEventListener('contextmenu', e => {
+  e.preventDefault();
+});
