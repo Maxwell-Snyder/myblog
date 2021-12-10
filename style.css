@@ -6,21 +6,6 @@
 #smoll_line {
         width:300px;       
 }
-
-@media print {
-        html, body {
-                display:none;
-        }
-}
-
-html {
-  -webkit-touch-callout: none;
-    -webkit-user-select: none;
-     -khtml-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-}
                                   
 #sus {
         filter:blur(5px);
