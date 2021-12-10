@@ -3,7 +3,7 @@
     [headers.values]
         X-Frame-Options = "deny"
         X-XSS-Protection = "1"
-        Cache-Control = "max-age=31536000"
+        Cache-Control = "must-revalidate"
         Proxy-Authenticate = "Basic"
         X-Permitted-Cross-Domain-Policies = "none"
         Content-Language = "en-US"
