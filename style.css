@@ -3,6 +3,16 @@
     padding:0;
 }
 
+#smoll_line {
+        width:300px;       
+}
+
+@media print {
+        html, body {
+                display:none;
+        }
+}
+
 html {
   -webkit-touch-callout: none;
     -webkit-user-select: none;
