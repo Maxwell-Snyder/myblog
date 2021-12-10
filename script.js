@@ -21,12 +21,4 @@ element3.addEventListener("click", () => {
   document.documentElement.scrollTop = 0; 
 });
 
- window.addEventListener("contextmenu"
-              ,
-               
-              e
-               
-              =>
-               e
-              .
-              preventDefault());
+document.getElementsByTagName(body).oncontextmenu = "return false";
