@@ -27,7 +27,7 @@
         Content-Security-Policy = '''
             default-src 'self' https:;
             script-src 'nonce-JJsam12MMsazks2312' 'strict-dynamic';
-            style-src 'nonce-cmFkZHVkZXNvcmFkaWNhbA==' 'nonce-Mask31278Ausam92' 'strict-dynamic' https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css ;
+            style-src 'nonce-cmFkZHVkZXNvcmFkaWNhbA==' 'nonce-c3VwZXJpZG9sZG9taXRhbg==' 'strict-dynamic' https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css ;
             object-src 'none';
             base-uri 'none';
             frame-src 'none';
