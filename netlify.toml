@@ -15,7 +15,7 @@
         X-Content-Type-Options = "nosniff"
         Referrer-Policy = "no-referrer"
         X-Download-Options = "noopen"
-        Expect-CT = "max-age=31536000, enforce, https://maxsspot.report-uri.com/r/d/ct/enforce"
+        Expect-CT = "enforce, max-age=31536000, https://maxsspot.report-uri.com/r/d/ct/enforce"
         Cross-Origin-Opener-Policy = "same-origin"
         Cross-Origin-Resource-Policy = "same-origin"
         Cross-Origin-Embedder-Policy = "unsafe-none"
@@ -33,7 +33,6 @@
             object-src 'none';
             base-uri 'none';
             frame-src https://www.youtube.com/embed/pUXvTCGtFcg;
-            frame-ancestors 'none';
             manifest-src 'none';
             connect-src https://www.googletagmanager.com/gtag/js?id=G-538KEJSXY6;
             upgrade-insecure-requests;
