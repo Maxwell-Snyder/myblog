@@ -16,9 +16,6 @@
         Referrer-Policy = "no-referrer"
         X-Download-Options = "noopen"
         Expect-CT = "max-age=31536000, enforce, https://maxsspot.report-uri.com/r/d/ct/enforce"
-        Cross-Origin-Opener-Policy = "same-origin"
-        Cross-Origin-Resource-Policy = "same-origin"
-        Cross-Origin-Embedder-Policy = "unsafe-none"
         
         Strict-Transport-Security = '''
             max-age=31536000;
