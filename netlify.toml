@@ -15,8 +15,8 @@
         X-Content-Type-Options = "nosniff"
         Referrer-Policy = "no-referrer"
         X-Download-Options = "noopen"
-        Expect-CT = "max-age=31536000, enforce, report-uri = "https://maxsspot.report-uri.com/r/d/ct/enforce""
-        Cross-Origin-Opener-Policy = "same-origin"
+        Expect-CT = "enforce, max-age=31536000, https://maxsspot.report-uri.com/r/d/ct/enforce"
+        Cross-Origin-Opener-Policy = "same-origin
         Cross-Origin-Resource-Policy = "same-origin"
         Cross-Origin-Embedder-Policy = "unsafe-none"
         
