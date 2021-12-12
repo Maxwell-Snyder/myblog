@@ -16,6 +16,9 @@
         Referrer-Policy = "no-referrer"
         X-Download-Options = "noopen"
         Expect-CT = "max-age=31536000, enforce, https://maxsspot.report-uri.com/r/d/ct/enforce"
+        Cross-Origin-Opener-Policy = "same-origin"
+        Cross-Origin-Resource-Policy = "same-origin"
+        Cross-Origin-Embedder-Policy = "unsafe-none"
         
         Strict-Transport-Security = '''
             max-age=31536000;
@@ -24,7 +27,7 @@
         '''
         
         Content-Security-Policy = '''
-            default-src 'self';
+            default-src https:;
             script-src 'nonce-d2h5eW91ZGVjb2RldGhpcw==' 'strict-dynamic';
             style-src 'nonce-cmFkZHVkZXNvcmFkaWNhbA==' 'nonce-c3VwZXJpZG9sZG9taXRhbg==' 'strict-dynamic' https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             object-src 'none';
