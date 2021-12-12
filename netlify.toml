@@ -32,7 +32,8 @@
             style-src 'nonce-cmFkZHVkZXNvcmFkaWNhbA==' 'nonce-c3VwZXJpZG9sZG9taXRhbg==' 'strict-dynamic' https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css ;
             object-src 'none';
             base-uri 'none';
-            frame-src 'none';
+            frame-src https://www.youtube.com/embed/pUXvTCGtFcg;
+            frame-ancestors 'none';
             manifest-src 'none';
             connect-src https://www.googletagmanager.com/gtag/js?id=G-538KEJSXY6;
             upgrade-insecure-requests;
