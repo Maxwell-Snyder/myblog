@@ -39,22 +39,7 @@
         '''
         
         Permissions-Policy = '''
-            accelerometer=(none),
-            ambient-light-sensor=(none),
-            autoplay=(none),
-            camera=(none),
-            fullscreen=(none),
-            geolocation=(none),
-            gyroscope=(none),
-            magnetometer=(none),
-            microphone=(none),
-            midi=(none),
-            payment=(none),
-            picture-in-picture=(none),
-            speaker=(none),
-            usb=(none),
-            vibrate=(none),
-            vr=(none)
+            intrest-cohort=(none)
         '''
  
         [[redirects]]
