@@ -43,7 +43,7 @@
         '''
         
         Permissions-Policy = '''
-            intrest-cohort=(none)
+            interest-cohort=(none)
         '''
  
         [[redirects]]
