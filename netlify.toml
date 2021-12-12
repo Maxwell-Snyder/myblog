@@ -31,12 +31,14 @@
             script-src 'nonce-d2h5eW91ZGVjb2RldGhpcw==' 'strict-dynamic';
             style-src 'nonce-cmFkZHVkZXNvcmFkaWNhbA==' 'nonce-c3VwZXJpZG9sZG9taXRhbg==' 'strict-dynamic' https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             object-src 'none';
-            img-src https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_56623.png&f=1&nofb=1 https://www.dropbox.com/s/uam2lxsmux8pbvk/1249063%281%29.jpg?raw=1 https://www.dropbox.com/s/4z8sppoec485a4a/1249064%281%29.jpg?raw=1 https://www.dropbox.com/s/ec390h3f0huju6u/1249065%281%29.jpg?raw=1 https://www.dropbox.com/s/poeovl5wksl02kh/1249066%281%29.jpg?raw=1;
+            child-src 'none';
+            font-src https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             base-uri 'none';
             frame-src 'none';
             manifest-src 'none';
             connect-src https://www.googletagmanager.com/gtag/js?id=G-538KEJSXY6;
             upgrade-insecure-requests;
+            block-all-mixed-content;
         '''
         
         Permissions-Policy = '''
