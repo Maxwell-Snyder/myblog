@@ -36,6 +36,8 @@
             navigate-to 'none';
             base-uri 'none';
             font-src *;
+            img-src https:;
+            worker-src 'none';
             frame-src 'none';
             frame-ancestors 'none';
             form-action 'none';
