@@ -15,7 +15,7 @@
         X-Content-Type-Options = "nosniff"
         Referrer-Policy = "no-referrer"
         X-Download-Options = "noopen"
-        Expect-CT = "max-age=31536000, enforce, https://maxsspot.report-uri.com/r/d/ct/enforce"
+        Expect-CT = "enforce, max-age=31536000"
         Cross-Origin-Opener-Policy = "same-origin"
         Cross-Origin-Resource-Policy = "same-origin"
         Cross-Origin-Embedder-Policy = "unsafe-none"
@@ -27,7 +27,7 @@
         '''
         
         Content-Security-Policy = '''
-            default-src 'self' https:;
+            default-src https:;
             script-src 'nonce-d2h5eW91ZGVjb2RldGhpcw==' 'report-sample';
             style-src 'nonce-cmFkZHVkZXNvcmFkaWNhbA==' 'nonce-c3VwZXJpZG9sZG9taXRhbg==' 'report-sample' https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             object-src 'none';
@@ -36,14 +36,14 @@
             navigate-to 'none';
             base-uri 'none';
             font-src *;
-            
             frame-src 'none';
             frame-ancestors 'none';
             form-action 'none';
             manifest-src 'none';
             connect-src https://www.googletagmanager.com/gtag/js?id=G-538KEJSXY6;
             upgrade-insecure-requests;
-            block-all-mixed-content;
+            require-trusted-types-for 'script';
+            report-uri https://maxsspot.report-uri.com/r/d/csp/enforce;
         '''
         
         Permissions-Policy = '''
