@@ -19,10 +19,6 @@ p, h2, label {
     cursor:default;       
 }
 
-label {
-        cursor:text;
-}
-
 body {
     text-align:center;
     font-family:"Raleway", sans-serif;
