@@ -22,3 +22,7 @@ element3.addEventListener("click", () => {
 document.addEventListener("contextmenu", function(evt){
   evt.preventDefault();
 }, false);
+
+document.querySelector('#content').addEventListener('selectstart', (e) => {
+    e.preventDefault();
+})
