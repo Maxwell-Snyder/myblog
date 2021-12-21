@@ -18,3 +18,7 @@ element3.addEventListener("click", () => {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0; 
 });
+
+document.addEventListener("contextmenu", function(evt){
+  evt.preventDefault();
+}, false);
