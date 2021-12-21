@@ -3,7 +3,6 @@
     [headers.values]
         X-Frame-Options = "deny"
         X-XSS-Protection = "1"
-        Clear-Site-Data = "cookies"
         Access-Control-Allow-Origin = "www.maxwellblog.com"
         Vary = "Origin"
         Cache-Control = "must-revalidate"
