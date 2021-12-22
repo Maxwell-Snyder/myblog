@@ -3,7 +3,7 @@
     [headers.values]
         X-Frame-Options = "deny"
         X-XSS-Protection = "1"
-        Access-Control-Allow-Origin = "www.maxwellblog.com"
+        Access-Control-Allow-Origin = "https://www.maxwellblog.com"
         Vary = "Origin"
         Cache-Control = "must-revalidate"
         Proxy-Authenticate = "Basic"
