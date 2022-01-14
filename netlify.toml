@@ -36,7 +36,7 @@
             navigate-to 'none';
             base-uri 'none';
             font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com;
-            img-src *www.dropbox.com https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_56623.png&amp;f=1&amp;nofb=1;
+            img-src  https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_56623.png&amp;f=1&amp;nofb=1 https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_56623.png&amp;f=1&amp;nofb=1;
             worker-src 'none';
             frame-src 'none';
             frame-ancestors 'none';
