@@ -18,7 +18,7 @@
         Expect-CT = "enforce, max-age=31536000"
         Cross-Origin-Opener-Policy = "same-origin"
         Cross-Origin-Resource-Policy = "same-origin"
-        Cross-Origin-Embedder-Policy = "require-corp"
+        Cross-Origin-Embedder-Policy = "unsafe-none"
         
         Strict-Transport-Security = '''
             max-age=31536000;
@@ -35,7 +35,7 @@
             media-src 'none';
             navigate-to 'none';
             base-uri 'none';
-            font-src https:;
+            font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com;
             img-src https:;
             worker-src 'none';
             frame-src 'none';
@@ -43,7 +43,6 @@
             form-action 'none';
             manifest-src 'none';
             connect-src https://www.googletagmanager.com/gtag/js?id=G-538KEJSXY6;
-            upgrade-insecure-requests;
             require-trusted-types-for 'script';
             report-uri https://maxsspot.report-uri.com/r/d/csp/enforce;
         '''
