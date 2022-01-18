@@ -1,4 +1,4 @@
-document.getELementById("light").style.display = "none";
+document.getElementById("light").style.display = "none";
 var sum = localStorage.getItem ("dark-mode");
 if (sum.value = "true") {
     document.body.style.background = "#1B1212";
@@ -40,8 +40,8 @@ document.body.style.background = "#1B1212";
     document.getElementById("demo").style.color = "white";
     document.getElementById("nav").style.backgroundColor = "#36454f";
     document.getElementById("share").style.backgroundColor = "#36454f";
-    document.getELementById("dark").style.display = "none";
-    document.getELementById("light").style.display = "block";
+    document.getElementById("dark").style.display = "none";
+    document.getElementById("light").style.display = "block";
     localStorage.setItem ("dark-mode","true");
 });
 
@@ -52,7 +52,7 @@ element5.addEventListener("click", () => {
     document.getElementById("demo").style.color = "black";
     document.getElementById("nav").style.backgroundColor = "whitesmoke";
     document.getElementById("share").style.backgroundColor = "whitesmoke";
-    document.getELementById("dark").style.display = "block";
-    document.getELementById("light").style.display = "none";
+    document.getElementById("dark").style.display = "block";
+    document.getElementById("light").style.display = "none";
     localStoarge.clear();
 });
