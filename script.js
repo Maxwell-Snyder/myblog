@@ -19,14 +19,6 @@ element3.addEventListener("click", () => {
   document.documentElement.scrollTop = 0; 
 });
 
-document.addEventListener("contextmenu", function(evt){
-  evt.preventDefault();
-}, false);
-
-document.querySelector('#content').addEventListener('selectstart', (e) => {
-    e.preventDefault();
-})
-
 const element4 = document.getElementById('dark')
 
 element4.addEventListener("click", () => {
