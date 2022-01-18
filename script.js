@@ -1,21 +1,3 @@
-document.getElementById("light").style.display = "none";
-var sum = localStorage.getItem ("dark-mode");
-if (sum.value = "true") {
-    document.body.style.background = "#1B1212";
-    document.getElementById("demo").style.color = "white";
-    document.getElementById("nav").style.backgroundColor = "#36454f";
-    document.getElementById("share").style.backgroundColor = "#36454f";
-       document.getElementById("dark").style.display = "none";
-    document.getElementById("light").style.display = "block";
-} else {
-    document.body.style.background = "white";
-    document.getElementById("demo").style.color = "black";
-    document.getElementById("nav").style.backgroundColor = "whitesmoke";
-    document.getElementById("share").style.backgroundColor = "whitesmoke";
-        document.getElementById("dark").style.display = "block";
-    document.getElementById("light").style.display = "none";
-}
-
 const element = document.getElementById('f')
 
 element.addEventListener("click", () => {
@@ -37,30 +19,7 @@ element3.addEventListener("click", () => {
   document.documentElement.scrollTop = 0; 
 });
 
-const element4 = document.getElementById('dark')
 
-element4.addEventListener("click", () => {
-document.body.style.background = "#1B1212";
-    document.getElementById("demo").style.color = "white";
-    document.getElementById("nav").style.backgroundColor = "#36454f";
-    document.getElementById("share").style.backgroundColor = "#36454f";
-    document.getElementById("dark").style.display = "none";
-    document.getElementById("light").style.display = "block";
-    localStorage.setItem ("dark-mode","true");
-});
-
-const element5 = document.getElementById('light')
-
-element5.addEventListener("click", () => {
-    document.body.style.background = "white";
-    document.getElementById("demo").style.color = "black";
-    document.getElementById("nav").style.backgroundColor = "whitesmoke";
-    document.getElementById("share").style.backgroundColor = "whitesmoke";
-    document.getElementById("dark").style.display = "block";
-    document.getElementById("light").style.display = "none";
-    localStoarge.clear();
-    localStorage.removeItem('dark-mode');
-});
 var countDownDate = new Date("Jan 18, 2022 18:35:00").getTime();
 var x = setInterval(function() {
 
@@ -73,7 +32,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = minutes + "m " + seconds + "s ";
+  document.getElementById("hi").innerHTML = minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
