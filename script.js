@@ -1,7 +1,7 @@
 const element = document.getElementById('f')
 
 element.addEventListener("click", () => {
-    document.getElementsByTagName ('div').style.transform = "scale(1.0)";
+    document.getElementById ('share').style.transform = "scale(1.0)";
 });
 
 const element2 = document.getElementById('hide')
