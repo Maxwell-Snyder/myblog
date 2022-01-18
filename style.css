@@ -8,6 +8,12 @@ a {
         border:transparent;
 }
 
+@media print {
+   body {
+         display:none;  
+        }
+}
+
 #smoll_line {
         width:300px;       
 }
