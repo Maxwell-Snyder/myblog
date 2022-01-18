@@ -32,5 +32,6 @@ const element4 = document.getElementById('check')
 element4.addEventListener("click", () => {
   if (document.getElementById ("check").checked) {
     document.body.style.background = "purple";
+      alert ("hi");
 }
 });
