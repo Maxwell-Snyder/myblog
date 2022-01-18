@@ -155,7 +155,7 @@ a:hover {
     background-color:lightgray;
 }
 
-div {
+#share {
     /*display:none;*/
     transform:scale(0.0);
     width:210px;
