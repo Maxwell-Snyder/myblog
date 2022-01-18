@@ -22,7 +22,7 @@ element3.addEventListener("click", () => {
 const element4 = document.getElementById('dark')
 
 element4.addEventListener("click", () => {
-document.body.style.background = "#36454f";
+document.body.style.background = "#1B1212";
     document.getElementById("demo").style.color = "white";
-    document.getElementById("nav").style.backgroundColor = "#1B1212";
+    document.getElementById("nav").style.backgroundColor = "#36454f";
 });
