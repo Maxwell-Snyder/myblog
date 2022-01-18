@@ -1,3 +1,11 @@
+var sum = localStorage.getItem ("dark-mode");
+if (sum.value == true) {
+    document.body.style.background = "#1B1212";
+    document.getElementById("demo").style.color = "white";
+    document.getElementById("nav").style.backgroundColor = "#36454f";
+    document.getElementById("share").style.backgroundColor = "#36454f";
+}
+
 const element = document.getElementById('f')
 
 element.addEventListener("click", () => {
