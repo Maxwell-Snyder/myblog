@@ -5,11 +5,15 @@ if (sum.value = "true") {
     document.getElementById("demo").style.color = "white";
     document.getElementById("nav").style.backgroundColor = "#36454f";
     document.getElementById("share").style.backgroundColor = "#36454f";
+       document.getElementById("dark").style.display = "none";
+    document.getElementById("light").style.display = "block";
 } else {
     document.body.style.background = "white";
     document.getElementById("demo").style.color = "black";
     document.getElementById("nav").style.backgroundColor = "whitesmoke";
     document.getElementById("share").style.backgroundColor = "whitesmoke";
+        document.getElementById("dark").style.display = "block";
+    document.getElementById("light").style.display = "none";
 }
 
 const element = document.getElementById('f')
