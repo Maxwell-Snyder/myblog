@@ -36,7 +36,7 @@
             navigate-to 'none';
             base-uri 'none';
             font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com;
-            img-src  https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_56623.png&amp;f=1&amp;nofb=1 https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_56623.png&amp;f=1&amp;nofb=1;
+            img-src https://www.dropbox.com/s/poeovl5wksl02kh/1249066%281%29.jpg?raw=1 https://www.dropbox.com/s/ec390h3f0huju6u/1249065%281%29.jpg?raw=1 https://www.dropbox.com/s/uam2lxsmux8pbvk/1249063%281%29.jpg?raw=1 https://www.dropbox.com/s/4z8sppoec485a4a/1249064%281%29.jpg?raw=1 https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_56623.png&amp;f=1&amp;nofb=1;
             worker-src 'none';
             frame-src 'none';
             frame-ancestors 'none';
