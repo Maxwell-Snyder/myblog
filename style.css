@@ -241,6 +241,16 @@ p {
     margin-right:auto;
 }
 
+#mid {
+        margin-left:-20px;
+}
+
+#check {
+        margin-left:auto;
+        margin-right:auto;
+        transform:scale (0.75);
+}
+
 button {
     cursor:pointer;
 }
