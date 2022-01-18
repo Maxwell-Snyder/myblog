@@ -135,7 +135,7 @@ nav {
 }
 
 #share {
-    border-radius:0px 0px 0px 10px;
+    border-radius:10px;
 }
             
 #hi {
@@ -167,10 +167,10 @@ a:hover {
 }
 
 #share {
-    /*display:none;*/
     transform:scale(0.0);
     width:210px;
-    right:0px;
+    margin-left:auto;
+    margin-right:auto;
     top:50px;
     margin-top:5px;
     transition:all 0.5s;
