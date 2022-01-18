@@ -59,4 +59,5 @@ element5.addEventListener("click", () => {
     document.getElementById("dark").style.display = "block";
     document.getElementById("light").style.display = "none";
     localStoarge.clear();
+    localStorage.removeItem('dark-mode');
 });
