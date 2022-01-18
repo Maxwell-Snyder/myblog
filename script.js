@@ -31,4 +31,5 @@ const element4 = document.getElementById('dark')
 
 element4.addEventListener("click", () => {
     document.body.style.background = "purple";
+    alert ("hi");
 });
