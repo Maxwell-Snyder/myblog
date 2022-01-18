@@ -3,6 +3,11 @@
     padding:0;
 }
 
+a {
+        background-color:transparent;
+        border:transparent;
+}
+
 #smoll_line {
         width:300px;       
 }
