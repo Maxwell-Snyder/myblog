@@ -22,6 +22,6 @@ element3.addEventListener("click", () => {
 const element4 = document.getElementById('dark')
 
 element4.addEventListener("click", () => {
-    document.body.style.background = "purple";
-    alert ("hi");
+    document.body.style.background = "#36454f"
+    document.body.innerText.style.color = "white";
 });
