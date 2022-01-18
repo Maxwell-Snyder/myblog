@@ -24,4 +24,5 @@ const element4 = document.getElementById('dark')
 element4.addEventListener("click", () => {
 document.body.style.background = "#36454f";
     document.getElementById("demo").style.color = "white";
+    document.getElementById("nav").style.backgroundColor = "#1B1212";
 });
