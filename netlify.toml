@@ -3,7 +3,6 @@
     [headers.values]
         X-Frame-Options = "deny"
         X-XSS-Protection = "1"
-        Access-Control-Allow-Origin = "https://www.maxwellblog.com"
         Vary = "Origin"
         Cache-Control = "must-revalidate"
         Proxy-Authenticate = "Basic"
@@ -15,7 +14,6 @@
         X-Content-Type-Options = "nosniff"
         Referrer-Policy = "no-referrer"
         X-Download-Options = "noopen"
-        Expect-CT = "enforce, max-age=31536000"
         Cross-Origin-Opener-Policy = "same-origin"
         Cross-Origin-Resource-Policy = "same-origin"
         Cross-Origin-Embedder-Policy = "unsafe-none"
