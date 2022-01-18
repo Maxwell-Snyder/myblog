@@ -36,7 +36,7 @@
             navigate-to 'none';
             base-uri 'none';
             font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com;
-            img-src https:;
+            img-src *;
             worker-src 'none';
             frame-src 'none';
             frame-ancestors 'none';
