@@ -27,7 +27,7 @@ document.querySelector('#content').addEventListener('selectstart', (e) => {
     e.preventDefault();
 })
 
-  if (document.getElementById ("check").checked) {
+  if (document.getElementById ("darkmode").checked) {
     document.body.style.background = "purple";
       alert ("hi");
 }
