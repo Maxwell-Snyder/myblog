@@ -44,6 +44,6 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("exploed").style.display = "none":
+    document.getElementById("explode").style.display = "none":
   }
 }, 1000);
