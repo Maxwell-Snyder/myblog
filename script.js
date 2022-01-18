@@ -1,9 +1,15 @@
+document.getELementById("light").style.display = "none";
 var sum = localStorage.getItem ("dark-mode");
 if (sum.value = "true") {
     document.body.style.background = "#1B1212";
     document.getElementById("demo").style.color = "white";
     document.getElementById("nav").style.backgroundColor = "#36454f";
     document.getElementById("share").style.backgroundColor = "#36454f";
+} else {
+    document.body.style.background = "white";
+    document.getElementById("demo").style.color = "black";
+    document.getElementById("nav").style.backgroundColor = "whitesmoke";
+    document.getElementById("share").style.backgroundColor = "whitesmoke";
 }
 
 const element = document.getElementById('f')
@@ -34,5 +40,19 @@ document.body.style.background = "#1B1212";
     document.getElementById("demo").style.color = "white";
     document.getElementById("nav").style.backgroundColor = "#36454f";
     document.getElementById("share").style.backgroundColor = "#36454f";
+    document.getELementById("dark").style.display = "none";
+    document.getELementById("light").style.display = "block";
     localStorage.setItem ("dark-mode","true");
+});
+
+const element5 = document.getElementById('light')
+
+element5.addEventListener("click", () => {
+    document.body.style.background = "white";
+    document.getElementById("demo").style.color = "black";
+    document.getElementById("nav").style.backgroundColor = "whitesmoke";
+    document.getElementById("share").style.backgroundColor = "whitesmoke";
+    document.getELementById("dark").style.display = "block";
+    document.getELementById("light").style.display = "none";
+    localStoarge.clear();
 });
