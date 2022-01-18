@@ -35,7 +35,7 @@
             base-uri 'none';
             font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com;
             worker-src 'none';
-            frame-src 'none';
+            frame-src https://www.youtube.com/embed/pUXvTCGtFcg;
             frame-ancestors 'none';
             form-action 'none';
             manifest-src 'none';
