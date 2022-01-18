@@ -19,7 +19,14 @@ element3.addEventListener("click", () => {
   document.documentElement.scrollTop = 0; 
 });
 
-if (document.getElementById('dark').checked) {
-        document.body.style.background = "#36454f";
+const element4 = document.getElementById('dark')
+
+element4.addEventListener("click", () => {
+document.body.style.background = "#36454f";
     document.getElementById("demo").style.color = "white";
+});
+
+
+if (document.getElementById('dark').checked) {
+        
 }
