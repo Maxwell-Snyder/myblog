@@ -26,3 +26,11 @@ document.addEventListener("contextmenu", function(evt){
 document.querySelector('#content').addEventListener('selectstart', (e) => {
     e.preventDefault();
 })
+
+const element4 = document.getElementById('check')
+
+element4.addEventListener("click", () => {
+  if (document.getElementById ("check").checked) {
+    document.body.style.background = "purple";
+}
+});
