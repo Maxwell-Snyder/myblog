@@ -1,25 +1,3 @@
-const element = document.getElementById('f')
-
-element.addEventListener("click", () => {
-    document.getElementById ('share').style.transform = "scale(1.0)";
-});
-
-const element2 = document.getElementById('hide')
-
-element2.addEventListener("click", () => {
-    document.getElementById ("share").style.transform = "scale(0.0)";
-    document.getElementById ("f").style.display = "block";
-    document.getElementById ("hi").style.display = "none"; 
-});
-
-const element3 = document.getElementById('top')
-
-element3.addEventListener("click", () => {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0; 
-});
-
-
 var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
 
 var x = setInterval(function() {
@@ -41,3 +19,25 @@ var x = setInterval(function() {
     document.getElementById("explode").style.display = "none":
   }
 }, 1000);
+
+
+const element = document.getElementById('f')
+
+element.addEventListener("click", () => {
+    document.getElementById ('share').style.transform = "scale(1.0)";
+});
+
+const element2 = document.getElementById('hide')
+
+element2.addEventListener("click", () => {
+    document.getElementById ("share").style.transform = "scale(0.0)";
+    document.getElementById ("f").style.display = "block";
+    document.getElementById ("hi").style.display = "none"; 
+});
+
+const element3 = document.getElementById('top')
+
+element3.addEventListener("click", () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0; 
+});
