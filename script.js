@@ -16,7 +16,7 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("explode").style.display = "none":
+    document.getElementById("explode").style.display = "none";
   }
 }, 1000);
 
