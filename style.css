@@ -259,3 +259,7 @@ button, input {
     font-family:"Raleway", sans-serif;
     transition:all 0.25s;
 }
+
+input[type=checkbox] {
+    transform: scale(0.75);
+}
