@@ -28,7 +28,12 @@ body {
     text-align:center;
     font-family:"Raleway", sans-serif;
     transition:all 0.25s;
-            }
+        -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none            }
 
 input, textarea {
         width:200px;
