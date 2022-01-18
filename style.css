@@ -262,6 +262,5 @@ button, input {
 
 input[type=checkbox] {
     transform: scale(0.45);
-    margin-top:50px;
         position:fixed;
 }
