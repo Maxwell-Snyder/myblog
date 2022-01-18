@@ -22,7 +22,4 @@ element3.addEventListener("click", () => {
 if (document.getElementById('dark').checked) {
         document.body.style.background = "#36454f";
     document.getElementById("demo").style.color = "white";
-} else {
-        document.body.style.background = "white";
-    document.getElementById("demo").style.color = "black";
 }
