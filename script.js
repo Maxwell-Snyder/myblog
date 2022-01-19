@@ -1,3 +1,8 @@
+var sum = localStorage.getItem ("submitted");
+if (sum.value = "true") {
+    document.getElementById ("submitted").disabled = true;   
+}
+
 const element = document.getElementById('f')
 
 element.addEventListener("click", () => {
@@ -28,3 +33,8 @@ element4.addEventListener("click", () => {
   navigator.clipboard.writeText(copyText.value);
 });
 
+const element5 = document.getElementById('submit')
+
+element5.addEventListener("click", () => {
+  localStorage.setItem ("submitted","true");
+});
