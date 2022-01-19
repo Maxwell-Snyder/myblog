@@ -1,8 +1,3 @@
-var sum = localStorage.getItem ("submitted");
-if (sum.value = "true") {
-    document.getElementById ("submit").disabled = true;   
-}
-
 const element = document.getElementById('f')
 
 element.addEventListener("click", () => {
@@ -38,3 +33,8 @@ const element5 = document.getElementById('submit')
 element5.addEventListener("click", () => {
   localStorage.setItem ("submitted","true");
 });
+
+var sum = localStorage.getItem ("submitted");
+if (sum.value = "true") {
+    document.getElementById ("submit").disabled = true;   
+}
