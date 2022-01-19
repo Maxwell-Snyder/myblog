@@ -10,6 +10,7 @@ textarea {
         border:lightgray solid 2px;
         transition:all 1s;
         border-radius:5px;
+        border-bottom:lightgray solid 2px;
 }
 
 #submit {
