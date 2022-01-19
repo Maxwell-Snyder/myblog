@@ -1,6 +1,6 @@
 var sum = localStorage.getItem ("submitted");
 if (sum.value = "true") {
-    document.getElementById ("submitted").disabled = true;   
+    document.getElementById ("submit").disabled = true;   
 }
 
 const element = document.getElementById('f')
