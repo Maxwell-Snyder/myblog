@@ -9,6 +9,10 @@
         transform:scale(0.0);
 }
 
+#copy, #link {
+ cursor:pointer;       
+}
+
 a {
         background-color:transparent;
         border:transparent;
