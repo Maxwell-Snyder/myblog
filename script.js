@@ -19,6 +19,3 @@ element3.addEventListener("click", () => {
   document.documentElement.scrollTop = 0; 
 });
 
-if (location.href = "www.maxwellblog.com") {
-   location.href = "maxwellblog.netlify.app";
-}
