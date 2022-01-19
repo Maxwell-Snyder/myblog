@@ -3,6 +3,28 @@
     padding:0;
 }
 
+textarea {
+        width:200px;
+        height:100px;
+        background-color:lightgray;
+        border:lightgray solid 2px;
+        transition:all 1s;
+        border-radius:5px;
+}
+
+#submit {
+        background:skyblue;
+        border:skyblue solid 2px;
+        border-radius:5px;
+        width:200px;
+        height:30px;
+        margin-top:5px;
+}
+
+textarea:focus {
+        border:skyblue solid 2px;
+}
+
 #link {
         width:0px;
         height:0px;
