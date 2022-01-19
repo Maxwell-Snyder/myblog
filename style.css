@@ -7,23 +7,18 @@ textarea {
         width:200px;
         height:100px;
         background-color:lightgray;
-        border:lightgray solid 2px;
+        border:black solid 1px;
         transition:all 1s;
         border-radius:5px;
-        border-bottom:lightgray solid 2px;
 }
 
 #submit {
         background:skyblue;
         border:skyblue solid 2px;
         border-radius:5px;
-        width:200px;
+        width:202.5px;
         height:30px;
         margin-top:5px;
-}
-
-textarea:focus {
-        border:skyblue solid 2px;
 }
 
 #link {
