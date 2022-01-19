@@ -27,14 +27,3 @@ element4.addEventListener("click", () => {
   copyText.setSelectionRange(0, 99999);
   navigator.clipboard.writeText(copyText.value);
 });
-
-const element5 = document.getElementById('submit')
-
-element5.addEventListener("click", () => {
-  localStorage.setItem ("submitted","true");
-});
-
-var sum = localStorage.getItem ("submitted");
-if (sum.value = "true") {
-    document.getElementById ("submit").disabled = true;   
-}
