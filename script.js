@@ -18,3 +18,7 @@ element3.addEventListener("click", () => {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0; 
 });
+
+if (location.href = "www.maxwellblog.com") {
+   location.href = "maxwellblog.netlify.app";
+}
