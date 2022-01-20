@@ -28,6 +28,6 @@ element4.addEventListener("click", () => {
   navigator.clipboard.writeText(copyText.value);
 });
 
-if (document.getElementById ("chocolate").checked == true) {
+if (document.getElementById ("chocolate").checked;) {
     alert("hi!");   
 }
