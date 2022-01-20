@@ -27,7 +27,7 @@ element4.addEventListener("click", () => {
   copyText.setSelectionRange(0, 99999);
   navigator.clipboard.writeText(copyText.value);
 });
-
-if (document.getElementById ("chocolate").checked;) {
+var dark = document.getElementById ("chocolate");
+if (dark.checked) {
     alert("hi!");   
 }
