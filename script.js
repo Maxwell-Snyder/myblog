@@ -27,7 +27,9 @@ element4.addEventListener("click", () => {
   copyText.setSelectionRange(0, 99999);
   navigator.clipboard.writeText(copyText.value);
 });
-var dark = document.getElementById ("chocolate");
-if (dark.checked) {
-    alert("hi!");   
-}
+
+        if ($('#chocolate').is(':checked')) {
+            alert("checked");
+        } else {
+            alert("You didn't check it! Let me check it for you.");
+        }
