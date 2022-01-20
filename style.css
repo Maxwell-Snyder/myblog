@@ -297,6 +297,7 @@ input[type=checkbox] {
         margin-top:-9px;
         margin-left:-40px;
         border:transparent;
+        position:fixed;
 }
 
 #hide {
