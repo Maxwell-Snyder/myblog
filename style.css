@@ -3,8 +3,9 @@
     padding:0;
 }
 
-.copyrighted-badge {
-        height:30px;       
+#protected {
+        height:30px; 
+        width:125px;
 }   
        
 #DONTDELETEME {
