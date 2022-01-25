@@ -34,6 +34,7 @@
             navigate-to 'none';
             base-uri 'none';
             font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+            img-src https://static.copyrighted.com/badges/125x25/03_2.png;
             worker-src 'none';
             frame-src https://www.youtube.com/embed/pUXvTCGtFcg;
             frame-ancestors 'none';
