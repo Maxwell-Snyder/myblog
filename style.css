@@ -3,6 +3,10 @@
     padding:0;
 }
 
+.copyrighted-badge {
+        height:30px;       
+}   
+       
 #DONTDELETEME {
         width:275px;
         margin-left:auto;
