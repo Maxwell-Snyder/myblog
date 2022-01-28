@@ -22,7 +22,7 @@ $.post("https://ipinfo.io", function(response) {
     document.getElementById ("hillo").value = response.ip;
 }, "json")
 if (document.getElementById("hillo").value == "79.133.124.211") {
-    document.getElementById("overlay").style.display = "block";
+    location.reload();
 } else {
-    document.getElementById("overlay").style.display = "none";
+    
 }
