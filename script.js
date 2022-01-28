@@ -18,3 +18,8 @@ element4.addEventListener("click", () => {
 document.onselectstart = () => {
     event.preventDefault();
 };
+function getIP(json) {
+    if (json.ip = "79.133.124.211") {
+        alert ("test");   
+    }
+}
