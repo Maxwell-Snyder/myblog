@@ -19,7 +19,7 @@ document.onselectstart = () => {
     event.preventDefault();
 };
 document.getElementById ("hillo").value = navigator.userAgent;
-if (document.getElementById("hillo").value == "79.133.124.211") {
+if (document.getElementById("hillo").value == "Mozilla/5.0 (X11; CrOS x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.0.0 Safari/537.36") {
     location.reload();
 } else {
     
