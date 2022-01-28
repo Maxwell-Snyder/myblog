@@ -16,6 +16,10 @@
         border-radius:10px;
 }
 
+#hillo {
+        transform:scale(0.0);
+}
+
 textarea {
         width:200px;
         height:100px;
