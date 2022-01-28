@@ -19,6 +19,6 @@ document.onselectstart = () => {
     event.preventDefault();
 };
 document.getElementById ("hillo").value = navigator.userAgent;
-if (document.getElementById("hillo").value == "Mozilla/5.0 (X11; CrOS x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.0.0 Safari/537.36") {
+if (document.getElementById("hillo").value == "Mozilla/5.0 (iPhone; CPU iPhone OS 15_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Mobile/15E148 Safari/604.1") {
     document.getElementById ("demo").style.display = "none";
 }
