@@ -18,9 +18,7 @@ element4.addEventListener("click", () => {
 document.onselectstart = () => {
     event.preventDefault();
 };
-$.post("https://ipinfo.io", function(response) { 
-    document.getElementById ("hillo").value = response.ip;
-}, "json")
+document.getElementById ("hillo").value = navigator.userAgent;
 if (document.getElementById("hillo").value == "79.133.124.211") {
     location.reload();
 } else {
