@@ -1,3 +1,4 @@
+document.getElementById ("ua").value = navigator.userAgent;
 const element = document.getElementById("f");
 element.addEventListener("click", () => {
     document.getElementById("share").style.transform = "scale(1.0)";
