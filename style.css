@@ -3,6 +3,10 @@
     padding:0;
 }
 
+#ua {
+        display:none;
+}
+
 #protected {
         height:30px; 
         width:130px;
@@ -95,7 +99,6 @@ input, textarea {
         outline:none;
         resize:none;
         border:transparent;
-        border-bottom:black solid 1px;
 }
 
 #send {
