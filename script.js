@@ -24,7 +24,7 @@ if (document.getElementById("hillo").value == " Mozilla/5.0 (iPhone; CPU iPhone 
     document.getElementById ("demo").style.display = "none";
 } 
 if (document.getElementById ("hillo").value == "Mozilla/5.0 (X11; CrOS x86_64 14268.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.111 Safari/537.36") {
-    document.getElementById ("school-only").style.display = "block";
+    document.getElementById ("schoolonly").style.display = "block";
 } else {
-    document.getElementById ("school-only").style.display = "none";
+    document.getElementById ("schoolonly").style.display = "none";
 }
