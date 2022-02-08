@@ -19,11 +19,7 @@ element4.addEventListener("click", () => {
 document.onselectstart = () => {
     event.preventDefault();
 };
-document.getElementById ("schoolonly").style.display = "none";
 document.getElementById ("hillo").value = navigator.userAgent;
 if (document.getElementById("hillo").value == "Mozilla/5.0 (iPhone; CPU iPhone OS 15_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Mobile/15E148 Safari/604.1" || document.getElementById("hillo").value == "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36") {
     document.getElementById ("demo").style.display = "none";
 } 
-if (document.getElementById ("hillo").value == "Mozilla/5.0 (X11; CrOS x86_64 14268.67.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.111 Safari/537.36") {
-    document.getElementById ("schoolonly").style.display = "block";
-}
