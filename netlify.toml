@@ -30,7 +30,7 @@
             worker-src 'none';
             frame-src https://www.youtube.com/embed/pUXvTCGtFcg;
             frame-ancestors 'none';
-            form-action 'none';
+            form-action 'self' https://www.maxwellblog.com/submitted;
             manifest-src 'none';
             img-src https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_56623.png&f=1&nofb=1 https://static.copyrighted.com/badges/125x25/03_2.png;
             connect-src https://www.googletagmanager.com/gtag/js?id=G-538KEJSXY6;
