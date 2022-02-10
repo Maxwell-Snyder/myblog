@@ -28,7 +28,7 @@
             base-uri 'none';
             font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com;
             worker-src 'none';
-            frame-src https://www.youtube.com/embed/pUXvTCGtFcg;
+            frame-src *;
             frame-ancestors 'none';
             form-action 'self' https://www.maxwellblog.com/submitted;
             manifest-src 'none';
