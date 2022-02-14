@@ -5,8 +5,6 @@
         X-XSS-Protection = "1"
         Cache-Control = "must-revalidate"
         Content-Language = "en-US"
-        X-DNS-Prefetch-Control = "off"
-        Keep-Alive = "100"
         Connection = "keep-alive"
         X-Content-Type-Options = "nosniff"
         Referrer-Policy = "no-referrer"
