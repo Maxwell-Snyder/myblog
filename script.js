@@ -1,7 +1,3 @@
-var test = localStorage.getItem ("submitted");
-if (test.value = "true") {
-    document.getElementById("submit").disabled = true;
-}
 const element = document.getElementById("f");
 element.addEventListener("click", () => {
     document.getElementById("share").style.transform = "scale(1.0)";
@@ -29,3 +25,7 @@ element5.addEventListener("click", () => {
 document.onselectstart = () => {
     event.preventDefault();
 };
+var test = localStorage.getItem ("submitted");
+if (test.value = "true") {
+    document.getElementById("submit").disabled = true;
+}
