@@ -1,5 +1,5 @@
 var test = localStorage.getItem ("submitted");
-if (test.value == "true") {
+if (test.value = "true") {
     document.getElementById("submit").disabled = true;
 }
 const element = document.getElementById("f");
