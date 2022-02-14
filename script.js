@@ -1,3 +1,7 @@
+var test = localStorage.getItem ("submitted");
+if (test.value == "true") {
+    document.getElementById("submit").disabled = true;
+}
 const element = document.getElementById("f");
 element.addEventListener("click", () => {
     document.getElementById("share").style.transform = "scale(1.0)";
@@ -17,6 +21,10 @@ const element4 = document.getElementById("copy");
 element4.addEventListener("click", () => {
     var e = document.getElementById("link");
     e.select(), e.setSelectionRange(0, 99999), navigator.clipboard.writeText(e.value);
+});
+const element5 = document.getElementById("submit");
+element5.addEventListener("click", () => {
+    localStorage.setItem ("submitted","true");
 });
 document.onselectstart = () => {
     event.preventDefault();
