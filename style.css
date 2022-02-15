@@ -28,11 +28,15 @@
 textarea {
         width:200px;
         height:100px;
-        background-color:lightgray;
+        background-color:gainsboro;
         border:black solid 1px;
         transition:all 1s;
         border-radius:5px;
         text-indent:5px;
+}
+
+textarea:focus {
+               background-color:lightgray;
 }
 
 #submit {
