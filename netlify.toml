@@ -5,8 +5,6 @@
         X-XSS-Protection = "1"
         Cache-Control = "must-revalidate"
         Connection = "keep-alive"
-        Access-Control-Allow-Origin = "https://www.maxwellblog.com"
-        Vary = "Origin"
         X-Content-Type-Options = "nosniff"
         Referrer-Policy = "no-referrer"
         
@@ -17,7 +15,7 @@
         '''
         
         Content-Security-Policy = '''
-            default-src 'self';
+            default-src 'none';
             script-src 'nonce-d2h5eW91ZGVjb2RldGhpcw==' 'report-sample';
             style-src 'nonce-cmFkZHVkZXNvcmFkaWNhbA==' 'nonce-c3VwZXJpZG9sZG9taXRhbg==' 'report-sample' https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             object-src 'none';
