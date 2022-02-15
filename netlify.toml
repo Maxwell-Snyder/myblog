@@ -4,8 +4,9 @@
         X-Frame-Options = "deny"
         X-XSS-Protection = "1"
         Cache-Control = "must-revalidate"
-        Content-Language = "en-US"
         Connection = "keep-alive"
+        Access-Control-Allow-Origin = "https://developer.mozilla.org"
+        Vary = "Origin"
         X-Content-Type-Options = "nosniff"
         Referrer-Policy = "no-referrer"
         
