@@ -1,3 +1,7 @@
 User-agent: * 
 Disallow: /submitted
+
+User-agent: ia_archiver
+Disallow: /
+
 Sitemap: https://www.maxwellblog.com/sitemap.txt
