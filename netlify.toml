@@ -21,6 +21,7 @@
             font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com;
             form-action 'self' https://www.maxwellblog.com/submitted;
             img-src https:;
+            media-src https:;
             connect-src https://www.googletagmanager.com/gtag/js?id=G-538KEJSXY6;
             upgrade-insecure-requests;
             report-uri https://maxsspot.report-uri.com/r/d/csp/enforce;
