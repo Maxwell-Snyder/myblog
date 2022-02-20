@@ -32,7 +32,7 @@ if (security.includes("<") || security.includes(">")) {
 } else {
     document.getElementById ("submit").disabled = false;
 }
-}, 1000);
+}, 100);
 var test = localStorage.getItem ("submitted");
 if (test.value = "true") {
     document.getElementById("submit").disabled = true;
