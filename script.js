@@ -25,10 +25,9 @@ element5.addEventListener("click", () => {
 document.onselectstart = () => {
     event.preventDefault();
 };
-
 window.setInterval(function() {
   var security = document.getElementById ("reviewtext").value;
-if (security.includes("<") || security.includes(">") {
+if (security.includes("<") || security.includes(">")) {
     document.getElementById ("submit").disabled = true;
 }
 }, 1000);
