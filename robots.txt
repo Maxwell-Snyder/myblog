@@ -7,7 +7,7 @@
 User-agent: * 
 Disallow: /submitted
 
-User-agent: ia_archiver
-Disallow: /
+User-agent: Googlebot
+Disallow:
 
 Sitemap: https://www.maxwellblog.com/sitemap.txt
