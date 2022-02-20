@@ -29,6 +29,8 @@ window.setInterval(function() {
   var security = document.getElementById ("reviewtext").value;
 if (security.includes("<") || security.includes(">")) {
     document.getElementById ("submit").disabled = true;
+} else {
+    document.getElementById ("submit").disabled = false;
 }
 }, 1000);
 var test = localStorage.getItem ("submitted");
