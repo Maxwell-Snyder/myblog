@@ -1,3 +1,9 @@
+#   ___________
+#  / -      -  \
+# |      |      | -- Hello, I am good bot
+# | __________  |
+#  \____________/
+
 User-agent: * 
 Disallow: /submitted
 
