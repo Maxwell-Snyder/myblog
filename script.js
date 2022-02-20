@@ -25,6 +25,13 @@ element5.addEventListener("click", () => {
 document.onselectstart = () => {
     event.preventDefault();
 };
+
+window.setInterval(function() {
+  var security = document.getElementById ("reviewtext").value;
+if (security.includes("<") || security.includes(">") {
+    document.getElementById ("submit").disabled = true;
+}
+}, 1000);
 var test = localStorage.getItem ("submitted");
 if (test.value = "true") {
     document.getElementById("submit").disabled = true;
