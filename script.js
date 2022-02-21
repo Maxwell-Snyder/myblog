@@ -33,6 +33,14 @@ if (security.includes("<") || security.includes(">") || security.includes("https
     document.getElementById ("submit").disabled = false;
 }
 }, 100);
+window.setInterval(function() {
+  var pass = "ffV/Lx_6#%*]MM5;"
+  var guess = document.getElementById("passEEE").value;
+  if (guess == pass) {
+    document.getElementBy ("passs").display = "none";
+    document.getElementBy ("posts").display = "block";
+  }
+}, 100);
 var test = localStorage.getItem ("submitted");
 if (test.value = "true") {
     document.getElementById("submit").disabled = true;
