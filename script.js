@@ -36,7 +36,7 @@ if (security.includes("<") || security.includes(">") || security.includes("https
 window.setInterval(function() {
   var pass = "ffV/Lx_6#%*]MM5;"
   var guess = document.getElementById("passEEE").value;
-  if (guess == pass) {
+  if (guess.value == pass.value) {
     document.getElementBy ("passs").display = "none";
     document.getElementBy ("posts").display = "block";
   }
