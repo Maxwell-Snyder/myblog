@@ -96,6 +96,8 @@ textarea:focus {
 
 #passEEE {
         background-color:gainsboro;
+        border-radius:10px;
+        text-indent:10px;
 }
 
 #link {
