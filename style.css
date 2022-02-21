@@ -94,6 +94,10 @@ textarea:focus {
         margin-top:5px;
 }
 
+#passEEE {
+        background-color:gainsboro;
+}
+
 #link {
         width:0px;
         height:0px;
