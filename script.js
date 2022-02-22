@@ -29,11 +29,3 @@ var test = localStorage.getItem ("submitted");
 if (test.value = "true") {
     document.getElementById("submit").disabled = true;
 }
-window.setInterval(function() {
-  var security = document.getElementById ("reviewtext").value;
-if (security.includes("<") || security.includes(">") || security.includes("https") || security.includes("http")) {
-    document.getElementById ("submit").disabled = true;
-} else {
-    document.getElementById ("submit").disabled = false;
-}
-}, 100);
