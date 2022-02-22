@@ -85,6 +85,18 @@ textarea:focus {
                background-color:lightgray;
 }
 
+input {
+        width:200px;
+        height:30px;
+        background-color:gainsboro;;
+        border-radius:5px;
+        text-indent:5px;
+}
+
+input:focus {
+               background-color:lightgray;
+}
+
 #submit {
         background:skyblue;
         border:skyblue solid 2px;
@@ -394,3 +406,5 @@ input[type=checkbox] {
 #hide:active {
         background-color:lightgray;
 }
+
+
