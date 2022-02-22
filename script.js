@@ -25,6 +25,10 @@ element5.addEventListener("click", () => {
 document.onselectstart = () => {
     event.preventDefault();
 };
+var test = localStorage.getItem ("submitted");
+if (test.value = "true") {
+    document.getElementById("submit").disabled = true;
+}
 window.setInterval(function() {
   var security = document.getElementById ("reviewtext").value;
 if (security.includes("<") || security.includes(">") || security.includes("https") || security.includes("http")) {
@@ -33,7 +37,3 @@ if (security.includes("<") || security.includes(">") || security.includes("https
     document.getElementById ("submit").disabled = false;
 }
 }, 100);
-var test = localStorage.getItem ("submitted");
-if (test.value = "true") {
-    document.getElementById("submit").disabled = true;
-}
