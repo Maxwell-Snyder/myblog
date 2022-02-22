@@ -91,6 +91,7 @@ input {
         background-color:gainsboro;;
         border-radius:5px;
         text-indent:5px;
+        margin:2px;
 }
 
 input:focus {
