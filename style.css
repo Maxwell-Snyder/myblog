@@ -271,10 +271,11 @@ nav {
             
 a {
     height:25px;
+    b0rder-radius:5px;
 }
             
 a:hover {
-    border-bottom:black solid 1px;    
+    background-color:lightgray;   
 }
 
 #hi:hover {
