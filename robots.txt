@@ -6,6 +6,7 @@
 
 User-agent: * 
 Disallow: /submitted
+Disallow: /sms
 
 User-agent: Googlebot
 Disallow:
