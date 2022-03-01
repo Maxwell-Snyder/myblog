@@ -11,4 +11,6 @@ Disallow: /sms
 User-agent: Googlebot
 Disallow:
 
+Host: www.maxwellblog.com
+
 Sitemap: https://www.maxwellblog.com/sitemap.txt
