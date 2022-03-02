@@ -1,15 +1,16 @@
 #   ___________
-#  / -      -  \
-# |      |      | -- Hello, I am good bot
+#  / ^      ^  \
+# |      |      | -- Hello, I am good bot! I respect these rules.
 # | __________  |
 #  \____________/
 
 User-agent: * 
 Disallow: /submitted
-Disallow: /sms
 
 User-agent: Googlebot
 Disallow:
+
+Nofollow: /
 
 Host: www.maxwellblog.com
 
