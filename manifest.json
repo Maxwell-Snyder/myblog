@@ -1,0 +1,32 @@
+{
+    "theme_color": "#f69435",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "app_name": "Maxwell's Life Blog",
+    "short_name": "Maxwell's Life Blog",
+    "description": "This life blog is just my thoughts and ideas. Have fun reading!",
+    "icons": [
+        {
+            "src": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_56623.png&f=1&nofb=1",
+            "sizes": "192x",
+            "type": "image/png"
+        },
+        {
+            "src": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_56623.png&f=1&nofb=1",
+            "sizes": "256x",
+            "type": "image/png"
+        },
+        {
+            "src": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_56623.png&f=1&nofb=1",
+            "sizes": "384x",
+            "type": "image/png"
+        },
+        {
+            "src": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_56623.png&f=1&nofb=1",
+            "sizes": "512x",
+            "type": "image/png"
+        }
+    ]
+}
