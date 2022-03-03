@@ -1,14 +1,13 @@
 #   ___________
 #  / ^      ^  \
 # |      |      | -- Hello, I am good bot! I respect these rules.
-# | __________  |
+# | __________  | -- Be a good bot like me!
 #  \____________/
 
 User-agent: * 
 Disallow: /submitted
-
-User-agent: Googlebot
-Disallow:
+Disallow: /readme.md
+Disallow: /cname
 
 Nofollow: /
 
