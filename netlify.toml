@@ -8,6 +8,7 @@
         X-Content-Type-Options = "nosniff"
         Referrer-Policy = "no-referrer"
         Access-Control-Allow-Origin = "www.maxwellblog.com"
+        Vary = "Origin"
 
         Strict-Transport-Security = '''
             max-age=31536000;
