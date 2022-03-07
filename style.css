@@ -71,6 +71,10 @@
         display:none;
 }
 
+#screenshot {
+height:400px;
+}
+
 textarea {
         width:200px;
         height:100px;
