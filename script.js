@@ -27,7 +27,5 @@ document.onselectstart = () => {
 };
 var test = localStorage.getItem ("submitted");
 if (test.value = "true") {
-    document.getElementById("submit").disabled = true;
-    document.getElementById("submit").style.backgroundColor = "lightgrey";
-    document.getElementById("submit").style.border = "lightgrey solid 2px";
+    document.getElementById("submit").style.display = "none";
 }
