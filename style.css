@@ -256,10 +256,6 @@ nav {
 #s {
     float:right;
 }
-
-#share {
-    border-radius:5px;
-}
             
 #hi {
     background-color:transparent;
@@ -290,15 +286,9 @@ a:hover {
 }
 
 #share {
-    transform:scale(0.0);
     width:300px;
-    margin-left:auto;
-    margin-right:auto;
-        left:5%;
-    right:5%;
-
-    top:55px;
-    margin-top:15px;
+    margin-right:-100%;
+    margin-top:10px;
     transition:all 0.5s;
     position:fixed;
     background-color:whitesmoke;
