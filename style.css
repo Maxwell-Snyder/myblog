@@ -287,7 +287,13 @@ a:hover {
 
 #share {
     width:300px;
-    margin-right:-100%;
+        left:5%;
+        right:5%;
+        margin-left:auto;
+        margin-right:auto;
+        top:45px;
+        transform:scale(0.0);
+        opacity:0.0;
     margin-top:10px;
     transition:all 0.5s;
     position:fixed;
