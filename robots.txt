@@ -8,6 +8,7 @@ User-agent: *
 Disallow: /submitted
 Disallow: /readme.md
 Disallow: /cname
+Disallow: /humans.txt
 
 Nofollow: /
 
