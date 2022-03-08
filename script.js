@@ -1,10 +1,12 @@
 const element = document.getElementById("f");
 element.addEventListener("click", () => {
     document.getElementById("share").style.transform = "scale(1.0)";
+    document.getElementById("share").style.opacity = "1.0";
 });
 const element2 = document.getElementById("hide");
 element2.addEventListener("click", () => {
     document.getElementById("share").style.transform = "-scale(0.0)"
+    document.getElementById("share").style.opacity = "0.0";
     document.getElementById("f").style.display = "block";
     document.getElementById("hi").style.display = "none";
 });
