@@ -339,10 +339,6 @@ h1, h2 {
     background-color:#28282B;
 }
 
-#f:active {
-        background-color:#1B1212;
-}
-
 hr {
     background-color:#343434;
     border:#343434 solid 1px;
@@ -401,8 +397,4 @@ input[type=checkbox] {
 
 #hide:hover {
         background-color:#28282B;
-}
-
-#hide:active {
-        background-color:#1B1212;
 }
