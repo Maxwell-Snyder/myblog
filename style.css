@@ -185,7 +185,7 @@ text-decoration:underline;
 }
             
 #top {
-    background-color:#343434;
+    background-color:#1B1212;
     width:125px;
     height:50px;
     border:transparent;
@@ -235,7 +235,7 @@ img {
 }
 
 nav {
-    background-color:#023020;
+    background-color:#1B1212;
     height:60px;
     width:100%;
     position:fixed;
@@ -296,7 +296,7 @@ a:hover {
         opacity:0.0;
     transition:all 0.5s;
     position:fixed;
-    background-color:#023020;
+    background-color:#1B1212;
 }
             
 #b1, #b2, #b3, #b4, #b5, #b6 {
