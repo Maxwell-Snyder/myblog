@@ -108,7 +108,7 @@ input:focus {
 
 #submit {
         background:#28282B;
-        border:skyblue solid 2px;
+        border:#28282B solid 2px;
         border-radius:5px;
         width:204px;
         height:30px;
