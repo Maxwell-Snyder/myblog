@@ -235,7 +235,7 @@ img {
 }
 
 nav {
-    background-color:#36454f;
+    background-color:#023020;
     height:60px;
     width:100%;
     position:fixed;
@@ -296,7 +296,7 @@ a:hover {
         opacity:0.0;
     transition:all 0.5s;
     position:fixed;
-    background-color:#36454f;
+    background-color:#023020;
 }
             
 #b1, #b2, #b3, #b4, #b5, #b6 {
@@ -341,8 +341,8 @@ h1, h2 {
 }
 
 hr {
-    background-color:gainsboro;
-    border:gainsboro solid 1px;
+    background-color:#343434;
+    border:#343434 solid 1px;
     width:95%;
     border-radius:50px;
 }
