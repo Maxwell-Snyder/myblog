@@ -9,6 +9,8 @@ Disallow: /submitted
 Disallow: /readme.md
 Disallow: /cname
 Disallow: /humans.txt
+Disallow: /script.css
+Disallow: /style.js
 
 Nofollow: /
 
