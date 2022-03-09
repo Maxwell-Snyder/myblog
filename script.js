@@ -22,9 +22,7 @@ element4.addEventListener("click", () => {
 });
 const element5 = document.getElementById("submit");
 element5.addEventListener("click", () => {
-    if (document.getElementById ("reviewtext").value != null) {
         localStorage.setItem ("submitted","true");
-    }
 });
 document.onselectstart = () => {
     event.preventDefault();
