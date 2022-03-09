@@ -11,6 +11,7 @@ Disallow: /cname
 Disallow: /humans.txt
 Disallow: /script.css
 Disallow: /style.js
+Disallow: /404.css
 
 Nofollow: /
 
