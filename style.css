@@ -80,7 +80,7 @@ height:400px;
 textarea {
         width:200px;
         height:100px;
-        background-color:gainsboro;
+        background-color:#28282B;
         border:black solid 1px;
         transition:all 1s;
         border-radius:5px;
@@ -341,7 +341,7 @@ h1, h2 {
 }
 
 #f:hover {
-    background-color:#343434;
+    background-color:#28282B;
 }
 
 hr {
@@ -401,5 +401,5 @@ input[type=checkbox] {
 }
 
 #hide:hover {
-        background-color:#343434;
+        background-color:#28282B;
 }
