@@ -81,15 +81,15 @@ textarea {
         width:200px;
         height:100px;
         background-color:#28282B;
-        border:black solid 1px;
         transition:all 1s;
         border-radius:5px;
         text-indent:5px;
         color:white
+                border:black solid 3px; 
 }
 
 textarea:focus {
-        border-bottom:skyblue solid 3px;       
+        border:skyblue solid 3px;       
 }
 
 input {
