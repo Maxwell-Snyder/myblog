@@ -88,6 +88,10 @@ textarea {
         color:white
 }
 
+textarea:focus {
+        border-bottom:skyblue solid 3px;       
+}
+
 input {
         width:200px;
         height:30px;
