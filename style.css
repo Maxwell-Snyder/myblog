@@ -220,10 +220,7 @@ text-decoration:underline;
   background: #555; 
 }
             */
-            
-#top:hover {
-    background-color:skyblue;
-}
+           
 
 #top:active {
     transform:scale(0.95)
@@ -277,7 +274,7 @@ a {
 }
             
 a:hover {
-    border-bottom:black solid 1px;  
+    border-bottom:white solid 1px;  
 }
 
 #hi:hover {
@@ -344,11 +341,7 @@ h1, h2 {
 }
 
 #f:hover {
-    background-color:gainsboro;
-}
-            
-#f:active {
-    background-color:lightgray;
+    background-color:#343434;
 }
 
 hr {
@@ -408,11 +401,5 @@ input[type=checkbox] {
 }
 
 #hide:hover {
-        background-color:gainsboro;
+        background-color:#343434;
 }
-
-#hide:active {
-        background-color:lightgray;
-}
-
-
