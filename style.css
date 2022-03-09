@@ -1,7 +1,7 @@
         html, body {
     margin:0;
     padding:0;
-                background-color:#36454f;
+                background-color:black;
                 color:white;
 }
 
@@ -242,7 +242,7 @@ img {
 }
 
 nav {
-    background-color:whitesmoke;
+    background-color:#36454f;
     height:60px;
     width:100%;
     position:fixed;
@@ -303,7 +303,7 @@ a:hover {
         opacity:0.0;
     transition:all 0.5s;
     position:fixed;
-    background-color:whitesmoke;
+    background-color:#36454f;
 }
             
 #b1, #b2, #b3, #b4, #b5, #b6 {
@@ -315,7 +315,7 @@ a:hover {
 }
 
 a {
-    color:black;
+    color:white;
     text-decoration:none;
     transition:all 0.25s;
     margin:3px;
