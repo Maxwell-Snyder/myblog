@@ -31,6 +31,6 @@ var test = localStorage.getItem ("submitted");
 if (test.value = "true") {
     document.getElementById("submit").style.display = "none";
 }
-if (location.host != "www.maxwellblog.com" || location.host != "maxwellblog.netlify.app") {
+if (location.host != "https://www.maxwellblog.com" || location.host != "https://maxwellblog.netlify.app") {
     document.getElementById ("content").style.display = "none";   
 }
