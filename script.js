@@ -29,5 +29,5 @@ document.onselectstart = () => {
 };
 var test = localStorage.getItem ("submitted");
 if (test.value = "true") {
-    document.getElementById("share").style.display = "none";
+    document.getElementById("review").style.display = "none";
 }
