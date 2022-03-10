@@ -31,3 +31,7 @@ var test = localStorage.getItem ("submitted");
 if (test.value = "true") {
     document.getElementById("submit").style.display = "none";
 }
+let host = location.host;
+if (location.host != "www.maxwellblog.com") {
+    document.getElementById ("content").style.display = "none";   
+}
