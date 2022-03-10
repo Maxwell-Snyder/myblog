@@ -17,7 +17,6 @@
         <title>Maxwell's Life Blog</title>
     </head>
     <body>
-	<div id = "content">
         <nav>
             <h1 id = "elem">Maxwell's Life Blog </h1>
             <button id = "f" onclick = "share()" aria-label = "Open Share"><i class = "fas fa-grip-lines fa-lg"></i></button>
@@ -48,7 +47,7 @@
 		<input id = "link" value = "www.maxwellblog.com" readonly />
                 </label>
                 </a>
-		<!--sse--><br>
+		<div id = "share"><!--sse--><br>
 		<br>
 		<hr>
 		<form method = "POST" netlify name = "Reviews" action = "submitted" netlify-honeypot="Idj4238@idsaK">
@@ -56,7 +55,7 @@
 		<input name="Idj4238@idsaK" type = "hidden" />
 		<textarea placeholder = "Review text here..." required name = "Review Text" id = "reviewtext"></textarea>
 		<button id = "submit">Submit</button>
-		</form><!--/sse-->
+			</form><!--/sse--></div>
 		<br>
 		<br>
 	    </div>
@@ -480,6 +479,5 @@
             <h2>02/22/2021</h2>
             <p>Hi! This is my blog I guess? I'll write here sometimes, so dont forget to check in. This blog is only available in english as of now, but it may change later. Also, I may write multiple times a day! And, enjoy the blog!</p>
             <br>
-	    </div>
     </body>
 </html>
