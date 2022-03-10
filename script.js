@@ -29,5 +29,5 @@ document.onselectstart = () => {
 };
 var test = localStorage.getItem ("submitted");
 if (test.value = "true") {
-    document.getElementById("review").style.display = "none";
+    document.getElementById("submit").disabled = true;
 }
