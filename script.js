@@ -32,4 +32,3 @@ if (test.value = "true") {
     document.getElementById("submit").disabled = true;
     document.getElementById("submit").style.color = "grey";
 }
-location.href = "numerale.netlify.app/index.html";
