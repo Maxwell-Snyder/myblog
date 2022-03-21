@@ -19,7 +19,7 @@
         Content-Security-Policy = '''
             default-src 'none';
             script-src https: 'nonce-d2h5eW91ZGVjb2RldGhpcw==' 'unsafe-inline' 'report-sample';
-            style-src 'nonce-cmFkZHVkZXNvcmFkaWNhbA==' 'nonce-c3VwZXJpZG9sZG9taXRhbg==' 'report-sample' https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
+            style-src 'nonce-cmFkZHVkZXNvcmFkaWNhbA==' 'unsafe-inline' 'nonce-c3VwZXJpZG9sZG9taXRhbg==' 'report-sample' https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css;
             font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com;
             form-action 'self' https://www.maxwellblog.com/submitted;
             img-src https:;
