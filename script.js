@@ -6,7 +6,7 @@ element.addEventListener("click", () => {
   navigator.share({
     title: "Maxwell's Life Blog",
     text: "Check out Maxwell's blog!",
-    url: "https://www.maxwellblog.com/',
+    url: "https://www.maxwellblog.com/",
   })
     .then(() => console.log('Successful share'))
     .catch((error) => console.log('Error sharing', error));
