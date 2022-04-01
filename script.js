@@ -2,6 +2,15 @@ const element = document.getElementById("f");
 element.addEventListener("click", () => {
     document.getElementById("share").style.transform = "scale(1.0)";
     document.getElementById("share").style.opacity = "1.0";
+    if (navigator.share) {
+  navigator.share({
+    title: "Maxwell's Life Blog",
+    text: "Check out Maxwell's blog!",
+    url: "https://www.maxwellblog.com/',
+  })
+    .then(() => console.log('Successful share'))
+    .catch((error) => console.log('Error sharing', error));
+}
 });
 const element2 = document.getElementById("hide");
 element2.addEventListener("click", () => {
