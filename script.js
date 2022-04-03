@@ -5,10 +5,6 @@ element.addEventListener("click", () => {
 });
 const element2 = document.getElementById("hide");
 element2.addEventListener("click", () => {
-    document.getElementById("share").style.transform = "scale(0.0)"
-    document.getElementById("share").style.opacity = "0.0";
-    document.getElementById("f").style.display = "block";
-    document.getElementById("hi").style.display = "none";
 if (navigator.share) {
   navigator.share({
     title: "Maxwell's Life Blog",
@@ -18,6 +14,8 @@ if (navigator.share) {
     .then(() => console.log('Successful share'))
     .catch((error) => console.log('Error sharing', error));
 }
+    document.getElementById("share").style.transform = "scale(0.0)"
+    document.getElementById("share").style.opacity = "0.0";
 });
 const element3 = document.getElementById("top");
 element3.addEventListener("click", () => {
