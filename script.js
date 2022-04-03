@@ -7,8 +7,6 @@ const element2 = document.getElementById("hide");
 element2.addEventListener("click", () => {
 if (navigator.share) {
   navigator.share({
-    title: "Maxwell's Life Blog",
-    text: "Check out Maxwell's blog!",
     url: "https://www.maxwellblog.com/",
   })
     .then(() => console.log('Successful share'))
